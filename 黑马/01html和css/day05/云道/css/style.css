@@ -76,6 +76,8 @@ body{
 }
 .serve-bd .sale img{
     padding: 40px 35px 40px;
+    width: 248px;
+    height: 132px;
 }
 .serve .sale h4{
     font-size: 18px;
