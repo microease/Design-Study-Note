@@ -64,6 +64,56 @@ body{
     width: 830px;
     margin: 15px auto 0;
 }
+.serve-bd{
+    margin-top: 40px
+}
+.serve-bd li{
+    width: 320px;
+    height: 510px;
+    background-color: #fff;
+    float: left;
+    list-style: none;
+}
+.serve-bd .sale img{
+    padding: 40px 35px 40px;
+}
+.serve .sale h4{
+    font-size: 18px;
+    color:#333;
+    text-align: center;
+    font-weight: normal;
+    height:40px;
+}
+.serve .sale p{
+    font-size: 14px;
+    color:#666;
+    width: 250px;
+    margin:0 auto;
+    text-indent: 2em;
+    line-height: 26px;
+}
+.serve .sale a{
+    display: block;
+    width: 148px;
+    height: 38px;
+    background-color: #fff;
+    border:1px solid orange;
+    margin:30px auto;
+    text-align: center;
+    line-height: 38px;
+    font-size:16px;
+    color:#ff9412;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.serve .sale a:hover{
+    background-color: #ff9412;
+    border:1px solid #ff9412;
+    color:#fff;
+}
+.serve-bd .marketing{
+    margin:0 45px;
+}
 .case{
 
 }
