@@ -1,1 +1,3 @@
-alert("hello,huyankai");
+//alert("hello,huyankai");
+var name,mz="microease";
+alert(name,mz);
