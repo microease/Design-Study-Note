@@ -1,17 +1,17 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 body,div,p,h1,h2,h3,h4,img,dl,dt,dd,ul,li,ol{margin:0; padding:0; border:0;}
-clearfix:after{clear:both; content:""; display:block; visibility:hidden; height:0;}
-.clearfix{zoom:1;}*/
+.clearfix:after{clear:both; content:""; display:block; visibility:hidden; height:0;}
+.clearfix{zoom:1;}
 body{font-size:12px; color:#3e3e3e; font-family:"宋体";}
 ul,ol{list-style:none;}
 img{display:block;} /*ie 会有一个bug 图片下面有一个小空隙*/
 a{color:#039; text-decoration:none;}
 a:hover{color:#900; text-decoration:underline;}
 .shop{width:950px;margin:0 auto; margin-top:50px;}
-.header{height:49px;position: relative;}
-.header h1{ width:180px; height:49px; }
-.header .header_r{width:753px; height:49px; background-image:url(images/header_r_bg.jpg); float:left; text-align:right; line-height:49px; padding-right:15px; color:#FFF;position: absolute;right: 0;bottom: 0;}
+.header{height:49px;}
+.header h1{ width:180px; height:49px;float: left; }
+.header .header_r{width:753px; height:49px; background-image:url(images/header_r_bg.jpg); float:left; text-align:right; line-height:49px; padding-right:15px; color:#FFF;}
 .header .header_r a{color:#FFF;}
 /*main*/
 .main{height:260px; width:948px; border:1px solid #9BB8D2;}
@@ -28,3 +28,4 @@ a:hover{color:#900; text-decoration:underline;}
 .main .middle ul{ padding:14px; padding-top:20px;}
 .main .middle ul li{height:22px;}
 .main .right{width:244px; height:260px; background-color:#F60; float:right;}
+
