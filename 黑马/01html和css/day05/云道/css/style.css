@@ -2,6 +2,9 @@
     margin:0;
     padding: 0;
 }
+.clearfix:after {  content: "."; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+.clearfix {*zoom: 1;}   /* IE6、7 专有 */
 body{
     background-color: #fafafa;
 }
@@ -41,9 +44,8 @@ body{
 }
 .main{
 }
-.serve{
+.serve,.case,.partner{
     width: 1055px;
-    height: 660px;
     margin:75px auto 0;
 }
 .serve-hd{
@@ -65,7 +67,8 @@ body{
     margin: 15px auto 0;
 }
 .serve-bd{
-    margin-top: 40px
+    margin-top: 40px;
+    overflow: hidden;
 }
 .serve-bd li{
     width: 320px;
@@ -116,11 +119,88 @@ body{
 .serve-bd .marketing{
     margin:0 45px;
 }
-.case{
-
+.case-bd{
+    width: 1055px;
+    height: 210px;
+    margin-top: 80px;
+    position: relative;
 }
-.partner{
+.case-bd li{
+    width: 325px;
+    height: 210px;
+    list-style: none;
+    float: left;
+    position: relative;
+}
 
+.case-bd .case-bd-middle{
+    margin: 0 40px;
+}
+.case-bd .mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2) url(../images/fdj.png) center no-repeat;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: none;
+}
+.case-bd li:hover .mask{
+    display: block;
+}
+.case-bd .text{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    line-height: 45px;
+    font-size:12px;
+}
+.case-bd .left,.right{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.2);
+    top: 50%;
+    margin-top:-30px;
+    text-decoration: none;
+    color:#fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+.case-bd a:hover{
+    background: rgba(0, 0, 0, 0.5);
+    background-color: skyblue;
+}
+.case-bd .left{
+    left: -80px;
+}
+.case-bd .right{
+    right: -80px;
+}
+.media-bd{
+    width: 1040px;
+    height: 240px;
+    overflow: hidden;
+}
+.media-bd ul{
+    width: 1060px;
+}
+.media-bd li{
+    width: 210px;
+    height: 60px;
+    float: left;
+    border-right: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
 }
 .footer{
 
