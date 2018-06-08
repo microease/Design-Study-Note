@@ -29,6 +29,9 @@ ul{
     font-weight: normal;
     font-style: normal;
   }
+body{
+    background-color: #f6f6f6;
+}
 /* 
     顶部广告
 */
@@ -118,13 +121,126 @@ ul{
 }
 /* header */
 .header{
-    overflow: hidden;
     height: 140px;
 }
 .header-inner{
     height: 140px;
-    background-color: pink;
+    position: relative;
+
 }
 .logo{
- 
+    width: 190px;
+    height: 170px;
+    position: absolute;
+    left: 0;
+    top: -31px;
+    box-shadow: 0 -12px 10px rgba(0,0,0,0.3);
+}
+.logo h1{
+    margin:0;
+    overflow: hidden;
+}
+.logo a{
+    display: block;
+    width: 190px;
+    height: 170px;
+    background: url(../images/logo.jpg) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.search{
+    width: 550px;
+    height: 35px;
+    background-color: pink;
+    position: absolute;
+    left:350px;
+    top:25px
+}
+.search input{
+    width: 491px;
+    height: 33px;
+    border:1px solid #f10215;
+    padding-left:5px;
+    outline:none;
+    color:#989898;
+    float: left;
+}
+.search button{
+    width: 50px;
+    height: 35px;
+    background-color: #f10215;
+    float: left;
+    outline: none;
+    cursor: pointer;
+}
+.search i{
+    font-family: "icomoon";
+    color:#fff;
+    font-size: 16px;
+    font-style: normal;
+}
+.search em{
+    position: absolute;
+    top: 10px;
+    right: 65px;
+    width: 19px;
+    height: 15px;
+    background: url(../images/sprite-search.png) no-repeat;
+    cursor: pointer;
+}
+.search em:hover{
+    background-position: -30px 0;
+}
+.hotkeywords{
+    position: absolute;
+    left:350px;
+    top:70px;
+}
+.hotkeywords a{
+    font-size: 12px;
+    text-decoration: none;
+    color:#989898;
+}
+.hotkeywords a:hover{
+    color:#f10215
+}
+.shopcar{
+    width: 188px;
+    height: 33px;
+    position: absolute;
+    right:80px;
+    top:25px;
+    border:1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+}
+.shopcar a{
+    text-decoration: none;
+    color:#f10215;
+    font-size: 12px;
+}
+.shopcar i{
+    font-family: "icomoon";
+    font-style: normal;
+    color:#f10215;
+    margin-right: 5px;
+}
+.shopcar s{
+    position: absolute;
+    left: 140px;
+    top: 5px;
+    text-decoration: none;
+    background-color: #f10215;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 6px;
+    color:#fff;
+}
+.computer{
+    position: absolute;
+    right: 0;
+    bottom:0;
+
 }
