@@ -62,6 +62,7 @@ ul{
 }
 .shortcut .fl li{
     margin-left: 200px;
+    height: 30px;
 }
 .shortcut .fl i{
     font-family: "icomoon";
@@ -118,6 +119,11 @@ ul{
 /* header */
 .header{
     overflow: hidden;
+    height: 140px;
+}
+.header-inner{
+    height: 140px;
+    background-color: pink;
 }
 .logo{
  
