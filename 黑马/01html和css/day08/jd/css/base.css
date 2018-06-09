@@ -11,11 +11,28 @@
 .fr{
     float: right;
 }
+h1,h5,p{
+    margin:0;
+}
+.clearfix:before,.clearfix:after { 
+    content:"";
+    display:table;  /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+  }
+.clearfix:after {
+   clear:both;
+  }
+.clearfix {
+    *zoom:1;
+  }
 li{
     list-style: none;
 }
 ul{
     margin:0;
+    padding: 0;
+}
+*{
+    margin: 0;
     padding: 0;
 }
 /* 声明字体 */
@@ -269,5 +286,82 @@ body{
 }
 .navitems .spacer{
     float: left;
-    margin:15px -10px 0;
+    margin:15px 0;
+}
+/* 底部开始 */
+.footer{
+    height: 562px;
+    background-color: #eaeaea;
+}
+.footer-service{
+    height: 100px;
+    border-bottom:1px solid #dedede;
+}
+.service-inner{
+    padding:30px 0;
+}
+.service-inner ul{
+    overflow: hidden;
+}
+.service-inner li{
+    width: 297px;
+    height: 42px;
+    float: left;
+}
+.service-unit{
+    width: 225px;
+    height: 42px;
+    margin:0 auto;
+    position: relative;
+}
+.service-unit h5{
+    width: 36px;
+    height: 43px;
+    position: absolute;
+    left:0;
+    top:0;
+    float: left;
+    text-indent: -9999px;
+    background: url(../images/ico_service.png) no-repeat;
+    overflow: hidden;
+}
+.service-unit .kuai{
+    background-position: 0 -42px;
+}
+.service-unit .hao{
+    background-position: 0 -85px;
+}
+.service-unit .sheng{
+    background-position: 0 -130px;
+}
+.service-unit p{
+    float: left;
+    line-height: 43px;
+    margin-left:45px;
+}
+.help{
+    border-bottom: 1px solid #ccc;
+    height: 180px;
+    padding-top: 20px;
+}
+.help dl{
+    float: left;
+    width: 198px;
+}
+.help dt{
+    font-size: 14px;
+    height: 30px;
+    font-weight: 700;
+    color:#666;
+}
+.help dd{
+    height: 22px;
+}
+.help dd a{
+    font-size: 12px;
+    text-decoration: none;
+    color:#727272;
+}
+.help dd a:hover{
+    color:#f10215;
 }
