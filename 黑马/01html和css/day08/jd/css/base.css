@@ -346,7 +346,7 @@ body{
 }
 .help dl{
     float: left;
-    width: 198px;
+    width: 195px;
 }
 .help dt{
     font-size: 14px;
@@ -364,4 +364,73 @@ body{
 }
 .help dd a:hover{
     color:#f10215;
+}
+.help .cover{
+    float: right;
+    width: 207px;
+    height: 150px;
+    background:url(../images/ico_footer.png) no-repeat;
+}
+.cover dt{
+    text-align: center;
+}
+.cover .info{
+    color:#727272;
+    font-size: 12px;
+    width: 175px;
+    height: 50px;
+    margin-top:5px;
+    margin-left: 10px;
+}
+.more{
+    text-align: right;
+    padding-right: 10px;
+}
+.copyright{
+    border-top:1px solid #ccc;
+    padding-top:15px;
+}
+.links{
+    text-align: center;
+}
+.links a{
+    color:#727272;
+    font-size: 12px;
+}
+.links span{
+    color: #d4cdcd;
+    font-size: 12px;
+    margin:0 5px;
+}
+.c-info{
+    text-align: center;
+    font-size: 12px;
+    color:#9e9e9b;
+    line-height: 20px;
+    margin-top:10px;
+
+}
+.c-img{
+    text-align: center;
+}
+.c-img a{
+    width: 103px;
+    height: 32px;
+    display: inline-block;
+    background: url(../images/ico_footer.png) no-repeat 0 -151px;
+}
+.c-img .kexing{
+    background-position: -104px -151px;
+}
+.c-img .jingcha{
+    background-position: 0 -181px;
+}
+.c-img .chengxing{
+    background-position: -104px -181px;
+}
+.c-img .jubao{
+    background-position: 0 -217px;
+}
+.c-img .app{
+    background-position: -110px -217px;
 }
