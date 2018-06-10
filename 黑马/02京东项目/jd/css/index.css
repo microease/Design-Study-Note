@@ -136,6 +136,9 @@
     line-height: 22px;
     text-decoration: none;
 }
+.user-info a:hover{
+    color:#f10215;
+}
 .info-img{
     width: 40px;
     height: 40px;
@@ -149,7 +152,23 @@
     width: 100%;
 }
 .user-profit{
-
+    margin-top:10px;
+}
+.user-profit a{
+    width: 70px;
+    height: 20px;
+    border: 1px solid #f10215;
+    display: inline-block;
+    font-size: 12px;
+    color:#f10215;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+}
+.user-profit a:hover{
+    background-color: #f10215;
+    color:#fff;
 }
 .news{
     height: 154px;
