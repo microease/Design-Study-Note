@@ -218,12 +218,15 @@
 }
 .service{
     height: 210px;
-    background-color: skyblue;
+    width: 190px;
+    overflow: hidden;
+}
+.service ul{
+    width: 195px;
 }
 .service li{
     width: 47px;
     height: 69px;
-    background-color: purple;
     float: left;
     border-right: 1px solid #ccc;
     border-bottom:1px solid #ccc;
