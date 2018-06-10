@@ -26,7 +26,6 @@
 .clo1{
     width: 190px;
     height: 480px;
-    background-color: pink;
     float: left;
     padding-top:15px;
     background-color: #999395;
@@ -57,7 +56,6 @@
 
 .clo2hd{
     height: 340px;
-    background-color: pink;
     margin-bottom:10px;
     position: relative;
 }
@@ -119,7 +117,6 @@
     float: right;
 }
 .user{
-    background-color: pink;
     height: 95px;
     padding: 20px 15px 0;
 }
@@ -230,4 +227,23 @@
     float: left;
     border-right: 1px solid #ccc;
     border-bottom:1px solid #ccc;
+    background: 0;
+}
+.service li a{
+    width: 100%;
+    height: auto;
+    display: block;
+    text-decoration: none;
+}
+.service li a i{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin:15px auto 8px;
+    background: url(../images/sprite_fs@1x.png) no-repeat;
+}
+.service li a p{
+    text-align: center;
+    font-size:12px;
+    color:#747474;
 }
