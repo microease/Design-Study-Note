@@ -1,0 +1,57 @@
+.banner{
+    height: 420px;
+    background-color: #1c036c;
+}
+.inner{
+    height: 420px;
+    position: relative;
+} 
+.subnav{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 190px;
+    background-color: rgba(0, 0, 0, .3);
+    padding-top:20px;
+}
+.subnav li{
+    padding-left: 20px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+.subnav a{
+    font-size:16px;
+    color:#fff;
+    display: block;
+}
+.subnav a:hover{
+    color:#00b4ff;
+}
+.subnav span{
+    position: absolute;
+    right: 20px;
+    top:0;
+}
+.circle{
+    width: 176px;
+    height: 20px;
+    position: absolute;
+    left:50%;
+    margin-left:-88px;
+    bottom:20px;
+}
+.circle i{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: rgba(255,255,255, .3);
+    margin:0 5px;
+    border-radius: 50%;
+}
+.circle i:hover{
+    width: 20px;
+    border-radius: 6px;
+    position: relative;
+}

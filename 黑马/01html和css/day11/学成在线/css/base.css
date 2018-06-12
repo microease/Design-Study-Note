@@ -64,7 +64,7 @@ body{
     margin:0 auto;
 }
 header{
-    width: 1300px;
+    width: 1200px;
     height: 100px;
     margin:0 auto;
     box-sizing: border-box;
@@ -114,7 +114,7 @@ nav li a:hover{
     width: 410px;
     height: 40px;
     float: left;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 .search input{
     width: 361px;
@@ -156,7 +156,7 @@ nav li a:hover{
     top:0;
 }
 .personal span img{
-    vertical-align: top;
+    vertical-align: middle;
     border-radius: 50%;
     margin-right: 10px;
 }
