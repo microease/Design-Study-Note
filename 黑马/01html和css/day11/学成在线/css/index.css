@@ -62,7 +62,39 @@
     height: 300px;
     position: absolute;
     right: 0;
+    background-color: #fff;
     top:50%;
     transform: translate(0,-50%);
-    background-color: pink;
+}
+.timebook dt{
+    height: 50px;
+    background-color: #9bceea;
+    font-weight: 700;
+    line-height: 50px;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+}
+.timebook dd{
+    padding:15px 20px 0;
+
+}
+.timebook dd li{
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    padding-top:10px;
+    font-size: 16px;
+}
+.timebook h5{
+    font-size: 16px;
+    font-weight: normal;
+}
+.timebook .all{
+    height: 40px;
+    border: 1px solid #22b0ff;
+    color:#22b0ff;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
 }
