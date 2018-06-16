@@ -10,9 +10,13 @@
 // } else{
 //     console.log("平年");
 // }
-
-var years = 1;
-while(years%4==0&&years%400!=0||years%400==0){
-    console.log(years);
-    years+=1;
+// years%4==0&&years%400!=0||years%400==0
+var i = 1;
+var years = 0;
+while(i<=2018){
+    years = i;
+    if(years%4==0&&years%400!=0||years%400==0){
+        console.log(years);
+    }
+    i+=1;
 }
