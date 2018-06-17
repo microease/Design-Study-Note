@@ -91,9 +91,78 @@
 // document.write(arr3);
 // console.log(arr3);
 
-
+// //反转数组
+// var arr4=[10,20,30,40,50,60,70,80,90];
+// //控制交换的次数
+// for(var i=0; i<arr4.length/2;i++){
+//     var temp = arr4[i];
+//     arr4[i] = arr4[arr4.length-1-i];
+//     arr4[arr4.length-1-i] = temp;
+// }
+// document.write(arr4);
+//
 
 
 //提示用户输入班级人数，求总成绩，平均值，最高分，最低分
+//
+// var perCount = parseInt(prompt("请输入班级人数："));
+// var scores=[];
+// for(i=0;i<perCount;i++){
+//     scores[scores.length] = parseInt(prompt("请输入第"+(i+1)+"个人的成绩"));
+// }
+// document.write(scores+"<br>");
+
+//
+// var sum=0;
+// //求总成绩
+// for(i=0;i<scores.length;i++){
+//     sum+=scores[i];
+// }
+// document.write("总成绩："+sum+"<br>");
+// //求平均值
+// var pingJunZhi = sum/scores.length;
+// document.write("平均值："+pingJunZhi+"<br>");
+
+// //求最高分
+// var zuiDi = scores[0];
+// for (i=0;i<scores.length;i++){
+//     if (zuiDi < scores[i]){
+//         zuiDi = scores[i];
+//     }
+//
+// }
+// document.write("最高分是"+zuiDi);
+
+
+//求最低分
+// var zuiDi = scores[0];
+// for (i=0;i<scores.length;i++){
+//     if (zuiDi > scores[i]){
+//         zuiDi = scores[i];
+//     }
+//
+// }
+// document.write("最低分是"+zuiDi);
+
+
+
+
+
 
 //冒泡排序
+
+
+//冒泡排序是指把所有的数据按照一定的顺序排序
+
+var arr = [10,0,100,20,60,30];
+
+for(var i=0;i<arr.length-1;i++){
+    for(var j=0;j<arr.length-1-i;j++){
+        if(arr[j]>arr[j+1]){
+            var temp = arr[j+1];
+            arr[j+1] = arr[j];
+            arr[j] = temp;
+        }
+    }
+}
+document.write(arr);

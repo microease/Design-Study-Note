@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state>
+              <caret column="9" selection-start-column="2" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -26,10 +26,10 @@
       <file leaf-file-name="002.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02/002.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="83" selection-start-line="83" selection-start-column="3" selection-end-line="91" selection-end-column="21" />
+            <state relative-caret-position="317">
+              <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
               <folding>
-                <marker date="1529225687698" expanded="true" signature="1058:1206" ph="..." />
+                <marker date="1529242713492" expanded="true" signature="1058:1206" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,12 +160,12 @@
       <workItem from="1529100627505" duration="3957000" />
       <workItem from="1529138042389" duration="2858000" />
       <workItem from="1529152365982" duration="2444000" />
-      <workItem from="1529200551726" duration="8668000" />
+      <workItem from="1529200551726" duration="13445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27772000" />
+    <option name="totallyTimeSpent" value="32549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="702" extended-state="6" />
@@ -174,13 +174,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12265625" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" visible="true" weight="0.18471338" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" visible="true" weight="0.20859873" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35130718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49921876" visible="true" weight="0.18471338" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49921876" visible="true" weight="0.20859873" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -416,17 +416,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state>
+          <caret column="9" selection-start-column="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02/002.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="83" selection-start-line="83" selection-start-column="3" selection-end-line="91" selection-end-column="21" />
+        <state relative-caret-position="317">
+          <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
           <folding>
-            <marker date="1529225687698" expanded="true" signature="1058:1206" ph="..." />
+            <marker date="1529242713492" expanded="true" signature="1058:1206" ph="..." />
           </folding>
         </state>
       </provider>
