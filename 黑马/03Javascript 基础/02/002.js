@@ -153,16 +153,16 @@
 
 
 //冒泡排序是指把所有的数据按照一定的顺序排序
-
-var arr = [10,0,100,20,60,30];
-
-for(var i=0;i<arr.length-1;i++){
-    for(var j=0;j<arr.length-1-i;j++){
-        if(arr[j]>arr[j+1]){
-            var temp = arr[j+1];
-            arr[j+1] = arr[j];
-            arr[j] = temp;
-        }
-    }
-}
-document.write(arr);
+//
+// var arr = [10,0,100,20,60,30];
+//
+// for(var i=0;i<arr.length-1;i++){
+//     for(var j=0;j<arr.length-1-i;j++){
+//         if(arr[j]>arr[j+1]){
+//             var temp = arr[j+1];
+//             arr[j+1] = arr[j];
+//             arr[j] = temp;
+//         }
+//     }
+// }
+// document.write(arr);
