@@ -44,11 +44,21 @@ function getDays(year, month, day) {
     if (month == 1) {
         return days;
     }
+
     //需要判断这个年份是不是闰年
-    //需要判断这个月份多少天
-    var months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-    for (var i = 0; i <month-1; i++){
-        days +=month[i];
+    function isLeapYear(year) {
+        return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
     }
 
-        }
+    //需要判断这个月份多少天
+    var months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    for (var i = 0; i < month - 1; i++) {
+        days += months[i];
+    }
+    if (isLeapYear(year) && month > 2) {
+        days++;
+    }
+    return days;
+}
+
+console.log(getDays(2017, 3, 2));
