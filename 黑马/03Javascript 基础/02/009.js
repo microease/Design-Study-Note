@@ -25,18 +25,23 @@ console.log(zuoye.search("s"));
 // console.log(zuoye);
 // 6、 找出以上字符串中出现次数最多的字符和出现的次数
 //统一大小写
-zuoye = zuoye.toLocaleLowerCase();
-var obj = {};
-for (var i =0;i<zuoye.length;i++){
-    var key = zuoye[i];
-    if(obj[key]){//判断obj中有没有这个键
-    obj[key]++;
-    }else {
-        obj[key] = 1;//对象中没有这个字母，就把字母加到对象中
-    }
-}
-for(var key in obj){
-    console.log(key+"出现了"+obj[key]+"次");
-}
+// zuoye = zuoye.toLocaleLowerCase();
+// var obj = {};
+// for (var i =0;i<zuoye.length;i++){
+//     var key = zuoye[i];
+//     if(obj[key]){//判断obj中有没有这个键
+//     obj[key]++;
+//     }else {
+//         obj[key] = 1;//对象中没有这个字母，就把字母加到对象中
+//     }
+// }
+// for(var key in obj){
+//     console.log(key+"出现了"+obj[key]+"次");
+// }
 
 // 7、 遍历字符串，并将遍历出的字符两头添加符号“@”输出至当前的文档页面。
+// zuoye = zuoye.slice(0,zuoye.length);
+var at = "@";
+zuoye = at.concat(zuoye).concat(at);
+zuoye = zuoye.split();
+console.log(zuoye);
