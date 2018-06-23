@@ -43,5 +43,4 @@ console.log(zuoye.search("s"));
 // zuoye = zuoye.slice(0,zuoye.length);
 var at = "@";
 zuoye = at.concat(zuoye).concat(at);
-zuoye = zuoye.split();
 console.log(zuoye);
