@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1528aeb-1211-44c9-9553-8787bee0f053" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,17 +21,17 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="-7">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="设置DIV的宽高和背景颜色.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html">
+      <file leaf-file-name="点击按钮显示隐藏div.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="441">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,6 +67,7 @@
         <option value="$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/common.js" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html" />
       </list>
     </option>
   </component>
@@ -78,7 +80,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="702" />
@@ -126,7 +129,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -145,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.设置DIV的宽高和背景颜色.html">
+  <component name="RunManager" selected="JavaScript Debug.点击按钮显示隐藏div.html">
     <configuration name="设置DIV的宽高和背景颜色.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" />
     <configuration name="点击按钮修改性别和兴趣.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击按钮修改性别和兴趣.html" />
     <configuration name="点击按钮选择菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击按钮选择菜单.html" />
@@ -154,13 +157,16 @@
     <configuration name="按钮的排他功能.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/按钮的排他功能.html" />
     <configuration name="点击超链接切换图片.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击超链接切换图片.html" />
     <configuration name="点击按钮切换大图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击按钮切换大图.html" />
+    <configuration name="点击按钮显示隐藏div.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击按钮显示隐藏div.html" />
     <list>
       <item itemvalue="JavaScript Debug.点击按钮修改性别和兴趣.html" />
       <item itemvalue="JavaScript Debug.点击按钮选择菜单.html" />
       <item itemvalue="JavaScript Debug.设置DIV的宽高和背景颜色.html" />
+      <item itemvalue="JavaScript Debug.点击按钮显示隐藏div.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.点击按钮显示隐藏div.html" />
         <item itemvalue="JavaScript Debug.设置DIV的宽高和背景颜色.html" />
         <item itemvalue="JavaScript Debug.点击按钮选择菜单.html" />
         <item itemvalue="JavaScript Debug.点击按钮修改性别和兴趣.html" />
@@ -182,12 +188,12 @@
       <workItem from="1529872015309" duration="28000" />
       <workItem from="1529872114513" duration="87000" />
       <workItem from="1529872205468" duration="4000" />
-      <workItem from="1529872237026" duration="2515000" />
+      <workItem from="1529872237026" duration="3548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19463000" />
+    <option name="totallyTimeSpent" value="20496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,10 +205,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="702" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="702" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2578125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22890624" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921876" weight="0.32843137" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -290,9 +296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/黑马/03Javascript 基础/02/009.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -375,15 +378,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="-7">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="385">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
