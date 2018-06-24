@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <img id="img1" src="images/1.jpg" width="300" height="200">
+    <img id="img2" src="images/2.jpg" width="300" height="200">
+    <img id="img3" src="images/3.jpg" width="300" height="200">
+    <script>
+       var imgNum = document.getElementsByTagName("img");
+       for(var i=0;i<imgNum.length;i++){
+           imgNum[i].onclick=function () {
+               alert("被点击了");
+           }
+       }
+    </script>
+</body>
+</html>
