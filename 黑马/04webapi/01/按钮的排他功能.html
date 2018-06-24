@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="没怀孕"/>
+<input type="button" value="没怀孕"/>
+<input type="button" value="没怀孕"/>
+<input type="button" value="没怀孕"/>
+<input type="button" value="没怀孕"/>
+<input type="button" value="没怀孕"/>
+<script>
+    var btnObjs = document.getElementsByTagName("input");
+    //获取所有按钮
+    for (var i = 0; i < btnObjs.length; i++) {
+        //遍历所有按钮
+        btnObjs[i].onclick = function () {
+            //注册点击事件
+            for(var j = 0;j<btnObjs.length;j++){
+                //修改所有value为没怀孕
+                btnObjs[j].value ="没怀孕";
+            }
+            //把点击的按钮该改成怀孕
+            this.value = "怀孕了";
+
+        }
+    }
+</script>
+</body>
+</html>
