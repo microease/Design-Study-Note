@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1528aeb-1211-44c9-9553-8787bee0f053" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/类样式显示隐藏div.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,17 +20,17 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="189">
               <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="点击按钮显示隐藏div.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html">
+      <file leaf-file-name="按钮控制网页开关灯.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/按钮控制网页开关灯.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            <state relative-caret-position="341">
+              <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -68,6 +67,8 @@
         <option value="$PROJECT_DIR$/黑马/04webapi/01/common.js" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/类样式显示隐藏div.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/按钮控制网页开关灯.html" />
       </list>
     </option>
   </component>
@@ -80,8 +81,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="702" />
@@ -148,9 +148,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.点击按钮显示隐藏div.html">
+  <component name="RunManager" selected="JavaScript Debug.按钮控制网页开关灯.html">
     <configuration name="设置DIV的宽高和背景颜色.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/设置DIV的宽高和背景颜色.html" />
     <configuration name="点击按钮修改性别和兴趣.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击按钮修改性别和兴趣.html" />
+    <configuration name="按钮控制网页开关灯.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/按钮控制网页开关灯.html" />
     <configuration name="点击按钮选择菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击按钮选择菜单.html" />
     <configuration name="点击超链接切换图片.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击超链接切换图片.html" />
     <configuration name="点击图片修改图片的宽和高.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击图片修改图片的宽和高.html" />
@@ -158,17 +159,20 @@
     <configuration name="点击超链接切换图片.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击超链接切换图片.html" />
     <configuration name="点击按钮切换大图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击按钮切换大图.html" />
     <configuration name="点击按钮显示隐藏div.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击按钮显示隐藏div.html" />
+    <configuration name="类样式显示隐藏div.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/类样式显示隐藏div.html" />
     <list>
       <item itemvalue="JavaScript Debug.点击按钮修改性别和兴趣.html" />
-      <item itemvalue="JavaScript Debug.点击按钮选择菜单.html" />
       <item itemvalue="JavaScript Debug.设置DIV的宽高和背景颜色.html" />
       <item itemvalue="JavaScript Debug.点击按钮显示隐藏div.html" />
+      <item itemvalue="JavaScript Debug.类样式显示隐藏div.html" />
+      <item itemvalue="JavaScript Debug.按钮控制网页开关灯.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.按钮控制网页开关灯.html" />
+        <item itemvalue="JavaScript Debug.类样式显示隐藏div.html" />
         <item itemvalue="JavaScript Debug.点击按钮显示隐藏div.html" />
         <item itemvalue="JavaScript Debug.设置DIV的宽高和背景颜色.html" />
-        <item itemvalue="JavaScript Debug.点击按钮选择菜单.html" />
         <item itemvalue="JavaScript Debug.点击按钮修改性别和兴趣.html" />
       </list>
     </recent_temporary>
@@ -188,12 +192,13 @@
       <workItem from="1529872015309" duration="28000" />
       <workItem from="1529872114513" duration="87000" />
       <workItem from="1529872205468" duration="4000" />
-      <workItem from="1529872237026" duration="3548000" />
+      <workItem from="1529872237026" duration="4222000" />
+      <workItem from="1529879988923" duration="941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20496000" />
+    <option name="totallyTimeSpent" value="22111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,6 +245,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -376,13 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -395,8 +407,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        <state relative-caret-position="-38">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/类样式显示隐藏div.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/按钮控制网页开关灯.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
         </state>
       </provider>
     </entry>
