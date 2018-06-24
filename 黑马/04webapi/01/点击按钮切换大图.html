@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="显示大图" id="btn">
+    <img src="images/1-small.jpg" id="img">
+    <script>
+        // document.getElementById("btn").onclick=function () {
+        //     document.getElementById("img").src = "images/1.jpg";
+        // }
+        function getByID(id) {
+            return document.getElementById(id);
+        }
+        getByID("btn").onclick=function () {
+            getByID("img").src = "images/1.jpg";
+        }
+
+    </script>
+</body>
+</html>
