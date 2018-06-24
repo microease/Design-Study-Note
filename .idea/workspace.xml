@@ -2,8 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1528aeb-1211-44c9-9553-8787bee0f053" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/002.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/0f000PC3L7v5WMl_8bcCX6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/1-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/2-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/222.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/3-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/333.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/4-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/5-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/bgs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/bird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/birdfly.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/boduo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/bpic_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/cangjingkong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/cloud.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/content.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/content_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/lb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/lb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/lb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/lb4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/lb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/libai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/linzhiling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/liuyan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/noavatar_small.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/right.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/taobao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/tianshi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/tip1_c.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/tip1_f.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/tip1_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/xiaoniao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/卡卡西.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/大蛇丸.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/images/百度换肤.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/04webapi/01/001.js" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/04webapi/01/001.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/04webapi/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/04webapi/01/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,17 +82,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="268">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="001.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/001.js">
+      <file leaf-file-name="002.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/002.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            <state relative-caret-position="217">
+              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -52,8 +114,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/黑马/03Javascript 基础/02/009.js" />
-        <option value="$PROJECT_DIR$/黑马/04webapi/01/index.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/001.js" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/index.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/002.js" />
       </list>
     </option>
   </component>
@@ -115,6 +178,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/黑马/04webapi/01" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -151,12 +219,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529780115747</updated>
-      <workItem from="1529780117150" duration="2386000" />
+      <workItem from="1529780117150" duration="4682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2386000" />
+    <option name="totallyTimeSpent" value="4682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="702" extended-state="0" />
@@ -196,13 +264,6 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/黑马/03Javascript 基础/02/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/黑马/03Javascript 基础/02/009.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -213,17 +274,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/index.html">
+    <entry file="file://$PROJECT_DIR$/黑马/03Javascript 基础/02/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="186">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/001.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        <state relative-caret-position="268">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/002.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
         </state>
       </provider>
     </entry>

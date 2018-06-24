@@ -1,3 +1,3 @@
-document.getElementById("btn").onclick=function () {
-    alert("hello,huyankai")
-}
+document.getElementById("btn").onclick = function () {
+    alert("hello,huyankai");
+};
