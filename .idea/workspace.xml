@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1528aeb-1211-44c9-9553-8787bee0f053" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/04webapi/01/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/04webapi/01/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="点击按钮选择菜单.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="点击按钮选择菜单.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="305">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+            <state relative-caret-position="124">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -64,8 +63,8 @@
         <option value="$PROJECT_DIR$/黑马/04webapi/01/点击按钮切换大图.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/点击按钮修改性别和兴趣.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/commin.js" />
-        <option value="$PROJECT_DIR$/黑马/04webapi/01/common.js" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/common.js" />
       </list>
     </option>
   </component>
@@ -126,7 +125,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -179,12 +178,12 @@
       <workItem from="1529872015309" duration="28000" />
       <workItem from="1529872114513" duration="87000" />
       <workItem from="1529872205468" duration="4000" />
-      <workItem from="1529872237026" duration="460000" />
+      <workItem from="1529872237026" duration="1514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17408000" />
+    <option name="totallyTimeSpent" value="18462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击每个图片弹出对话框.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击图片修改图片的宽和高.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -339,13 +331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮切换大图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -363,17 +348,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击每个图片弹出对话框.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="465">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮切换大图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/点击按钮选择菜单.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="305">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>

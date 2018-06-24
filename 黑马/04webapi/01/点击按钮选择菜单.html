@@ -6,17 +6,18 @@
 </head>
 <body>
     <input type="button" value="test" id="btn" />
-    <select id="s">
+    <select id="s" value="ss">
         <option value="1">Test1</option>
         <option value="2">Test2</option>
-        <option value="3" id="opt3" >Test3</option>
+        <option value="3" id="opt3">Test3</option>
         <option value="4">Test4</option>
     </select>
     <script src="common.js"></script>
     <script>
+
         my$("btn").onclick=function () {
             my$("opt3").selected=true;
-        }
+        };
     </script>
 </body>
 </html>
