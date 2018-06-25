@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1528aeb-1211-44c9-9553-8787bee0f053" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a1528aeb-1211-44c9-9553-8787bee0f053" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03阻止超链接跳转.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03阻止超链接跳转.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/03阻止超链接跳转.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="462">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="三元运算符.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/三元运算符.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="switch语句.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/switch语句.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -63,6 +79,8 @@
         <option value="$PROJECT_DIR$/黑马/04webapi/02/02点击按钮改变列表背景颜色.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/02/阻止超链接跳转.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/02/04点击小图下面显示大图.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/三元运算符.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/switch语句.html" />
       </list>
     </option>
   </component>
@@ -79,6 +97,9 @@
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="702" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="添加" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -108,7 +129,7 @@
               <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
               <item name="黑马" type="462c0819:PsiDirectoryNode" />
               <item name="04webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
+              <item name="01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -145,32 +166,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.04点击小图下面显示大图.html">
-    <configuration name="01点击按钮禁用文本框.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/02/01点击按钮禁用文本框.html" />
+  <component name="RunManager" selected="JavaScript Debug.switch语句.html">
     <configuration name="02点击按钮改变列表背景颜色.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/02/02点击按钮改变列表背景颜色.html" />
     <configuration name="03阻止超链接跳转.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/02/03阻止超链接跳转.html" />
     <configuration name="04点击小图下面显示大图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/02/04点击小图下面显示大图.html" />
-    <configuration name="按钮控制网页开关灯.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/按钮控制网页开关灯.html" />
+    <configuration name="三元运算符.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/三元运算符.html" />
     <configuration name="点击按钮选择菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击按钮选择菜单.html" />
     <configuration name="点击超链接切换图片.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击超链接切换图片.html" />
     <configuration name="点击图片修改图片的宽和高.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击图片修改图片的宽和高.html" />
     <configuration name="按钮的排他功能.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/按钮的排他功能.html" />
     <configuration name="点击超链接切换图片.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击超链接切换图片.html" />
     <configuration name="点击按钮切换大图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Web-Study-Note/黑马/04webapi/01/点击按钮切换大图.html" />
+    <configuration name="switch语句.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/switch语句.html" />
     <list>
-      <item itemvalue="JavaScript Debug.按钮控制网页开关灯.html" />
-      <item itemvalue="JavaScript Debug.01点击按钮禁用文本框.html" />
       <item itemvalue="JavaScript Debug.02点击按钮改变列表背景颜色.html" />
       <item itemvalue="JavaScript Debug.03阻止超链接跳转.html" />
       <item itemvalue="JavaScript Debug.04点击小图下面显示大图.html" />
+      <item itemvalue="JavaScript Debug.三元运算符.html" />
+      <item itemvalue="JavaScript Debug.switch语句.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.switch语句.html" />
+        <item itemvalue="JavaScript Debug.三元运算符.html" />
         <item itemvalue="JavaScript Debug.04点击小图下面显示大图.html" />
         <item itemvalue="JavaScript Debug.03阻止超链接跳转.html" />
         <item itemvalue="JavaScript Debug.02点击按钮改变列表背景颜色.html" />
-        <item itemvalue="JavaScript Debug.01点击按钮禁用文本框.html" />
-        <item itemvalue="JavaScript Debug.按钮控制网页开关灯.html" />
       </list>
     </recent_temporary>
   </component>
@@ -195,11 +216,12 @@
       <workItem from="1529910898735" duration="293000" />
       <workItem from="1529911220520" duration="260000" />
       <workItem from="1529911497482" duration="202000" />
+      <workItem from="1529912613744" duration="558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25439000" />
+    <option name="totallyTimeSpent" value="25997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,7 +236,7 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10277778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19305556" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49921876" weight="0.32843137" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -246,6 +268,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/03阻止超链接跳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/04点击小图下面显示大图.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -485,8 +514,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/03阻止超链接跳转.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="462">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/三元运算符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/switch语句.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
