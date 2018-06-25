@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a href="../images/1.jpg" id="a1"><img src="../images/1-small.jpg"></a>
+    <img src="" id="big">
+    <script>
+        document.getElementById("a1").onclick=function () {
+            document.getElementById("big").src=this.href;
+            return false;
+        }
+    </script>
+</body>
+</html>
