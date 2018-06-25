@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            float: left;
+            margin-right: 10px;
+            /*box-sizing: border-box;*/
+            /*border: 3px solid blue;*/
+            /*
+            两种解决办法，一种是设置边框内挤，
+            一种是给她本身加上一个边框，边框的颜色和div的颜色一模一样，这样切换的时候完全看不出来。
+            个人感觉第一种办法好一点。
+            */
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<script>
+    var divObjs = document.getElementsByTagName("div");
+    for(i=0;i<divObjs.length;i++){
+        divObjs[i].onmouseover=function () {
+            this.style.border="3px solid red";
+        }
+        divObjs[i].onmouseout=function () {
+            this.style.border="";
+        }
+    }
+</script>
+</body>
+</html>
