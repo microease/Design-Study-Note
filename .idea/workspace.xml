@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1528aeb-1211-44c9-9553-8787bee0f053" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01点击按钮禁用文本框.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html">
+      <file leaf-file-name="10-20之间的随机数.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/10-20之间的随机数.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="286">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -59,12 +60,13 @@
         <option value="$PROJECT_DIR$/黑马/04webapi/01/点击按钮显示隐藏div.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/类样式显示隐藏div.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/按钮控制网页开关灯.html" />
-        <option value="$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/02/02点击按钮改变列表背景颜色.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/02/阻止超链接跳转.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/02/04点击小图下面显示大图.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/三元运算符.html" />
         <option value="$PROJECT_DIR$/黑马/04webapi/01/switch语句.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html" />
+        <option value="$PROJECT_DIR$/黑马/04webapi/01/10-20之间的随机数.html" />
       </list>
     </option>
   </component>
@@ -90,7 +92,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,12 +115,13 @@
               <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
               <item name="黑马" type="462c0819:PsiDirectoryNode" />
               <item name="04webapi" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
+              <item name="01" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,9 +152,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.03阻止超链接跳转.html">
+  <component name="RunManager" selected="JavaScript Debug.10-20之间的随机数.html">
     <configuration name="03阻止超链接跳转.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/02/03阻止超链接跳转.html" />
     <configuration name="04点击小图下面显示大图.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/02/04点击小图下面显示大图.html" />
+    <configuration name="10-20之间的随机数.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/10-20之间的随机数.html" />
     <configuration name="三元运算符.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/三元运算符.html" />
     <configuration name="按钮控制网页开关灯.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/按钮控制网页开关灯.html" />
     <configuration name="点击按钮选择菜单.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/黑马/04webapi/01/点击按钮选择菜单.html" />
@@ -167,9 +170,11 @@
       <item itemvalue="JavaScript Debug.04点击小图下面显示大图.html" />
       <item itemvalue="JavaScript Debug.三元运算符.html" />
       <item itemvalue="JavaScript Debug.switch语句.html" />
+      <item itemvalue="JavaScript Debug.10-20之间的随机数.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.10-20之间的随机数.html" />
         <item itemvalue="JavaScript Debug.switch语句.html" />
         <item itemvalue="JavaScript Debug.三元运算符.html" />
         <item itemvalue="JavaScript Debug.04点击小图下面显示大图.html" />
@@ -201,11 +206,12 @@
       <workItem from="1529912613744" duration="2053000" />
       <workItem from="1529917685453" duration="75000" />
       <workItem from="1529917777122" duration="5000" />
+      <workItem from="1529917829408" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27572000" />
+    <option name="totallyTimeSpent" value="28216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -252,6 +258,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -526,8 +539,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/黑马/04webapi/02/01点击按钮禁用文本框.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="338">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/黑马/04webapi/01/10-20之间的随机数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
