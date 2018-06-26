@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+
+        .box.hd {
+            width: 400px;
+            height: 50px;
+        }
+
+        .hd span {
+            background-color: blue;
+            width: 100px;
+            line-height: 50px;
+            text-align: center;
+            display: block;
+            float: left;
+            color: #fff;
+        }
+
+        .hd span.current {
+            background-color: red;
+        }
+
+        .bd ul {
+            width: 400px;
+            height: 350px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+
+        .bd li {
+            list-style: none;
+            display: none;
+        }
+
+        .bd li.current {
+            display: block;
+        }
+
+        .bd li p {
+            text-align: center;
+            line-height: 200px;
+            color: red;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="news">
+    <div class="hd">
+        <span>体育</span>
+        <span>娱乐</span>
+        <span>新闻</span>
+        <span>综合</span>
+    </div>
+    <div class="bd">
+        <ul>
+            <li class="current">
+                <p>我是体育模块</p>
+            </li>
+            <li>
+                <p>我是娱乐模块</p>
+            </li>
+            <li>
+                <p>我是新闻模块</p>
+            </li>
+            <li>
+                <p>我是综合模块</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="common.js"></script>
+<script>
+    //定义变量获取hd，bd 和span列表和li列表
+    var hd = my$("news").getElementsByClassName("hd")[0];
+    var bd = my$("news").getElementsByClassName("bd")[0];
+    var spanList = hd.getElementsByTagName("span");
+    var liList = bd.getElementsByTagName("li");
+    //循环遍历li标签
+    for (var i = 0; i < spanList.length; i++) {
+        //给每个span标签加一个index属性
+        spanList[i].setAttribute("index", i);
+        //定义鼠标经过效果
+        spanList[i].onmouseover = function () {
+            for (var j = 0; j < spanList.length; j++) {
+                //所有的span删除class属性
+                spanList[j].removeAttribute("class");
+            }
+            //当前的span增加current属性
+            this.setAttribute("class", "current");
+            //获取index属性
+            var index = this.getAttribute("index");
+            for (var k = 0; k < liList.length; k++) {
+                //循环遍历li标签，删除class属性
+                liList[k].removeAttribute("class");
+            }
+            //当前的li标签增加current属性
+            liList[index].setAttribute("class", "current");
+        }
+    }
+</script>
+</body>
+</html>

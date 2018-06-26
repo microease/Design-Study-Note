@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li >测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试</li>
+</ul>
+<script>
+    var list = document.getElementsByTagName("li");
+    for (var i = 0; i < list.length; i++) {
+        list[i].onclick = function () {
+            // 显示自定义属性的值
+            // alert(this.getAttribute("score"));
+            //    设置自定义属性的值
+        this.setAttribute("score",(i+1)*10);
+        //移除自定义属性用removeAttribute
+        }
+    }
+</script>
+</body>
+</html>
