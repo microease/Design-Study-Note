@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="点击隔行变色" id="btn"/>
+<ul id="ul">
+    <li>测试1测试1测试1测试1测试1测试1测试1测试1测试1测试1</li>
+    <li>测试1测试1测试1测试1测试1测试1测试1测试1测试1测试1</li>
+    <li>测试1测试1测试1测试1测试1测试1测试1测试1测试1测试1</li>
+    <li>测试1测试1测试1测试1测试1测试1测试1测试1测试1测试1</li>
+    <li>测试1测试1测试1测试1测试1测试1测试1测试1测试1测试1</li>
+</ul>
+<script src="common.js"></script>
+<script>
+    my$("btn").onclick = function () {
+        var list = my$("ul").getElementsByTagName("li");
+        for (var i = 0; i < list.length; i++) {
+            // if (i % 2 == 0) {
+            //     list[i].style.backgroundColor = "red";
+            // } else {
+            //     list[i].style.backgroundColor = "blue";
+            // }
+            //三元表达式写上面的代码
+            list[i].style.backgroundColor = i % 2 == 0 ? "red" : "blue";
+        }
+    }
+</script>
+</body>
+</html>

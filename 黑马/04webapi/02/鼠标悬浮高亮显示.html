@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+    <li>测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</li>
+</ul>
+<script src="common.js"></script>
+<script>
+    var lists = document.getElementsByTagName("li");
+    for (var i = 0; i<lists.length;i++){
+        //为li标签注册鼠标进入事件
+        lists[i].onmouseover = function () {
+            this.style.backgroundColor = "red";
+        }
+        lists[i].onmouseout = function () {
+            this.style.backgroundColor = "";
+        }
+    }
+</script>
+</body>
+</html>
