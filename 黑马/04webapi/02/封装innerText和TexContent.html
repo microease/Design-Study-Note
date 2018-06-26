@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #text1 {
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="设置" id="btn"/>
+<div id="text1">
+
+</div>
+<script src="common.js"></script>
+<script>
+    my$("btn").onclick = function () {
+        // my$("text1").textContent="测试textContent";
+        // my$("text1").innerText="测试innerText";
+        //    兼容代码 设置任意标签中的任意内容
+        function setInnerText(element, text) {
+            if (typeof element.textContent == "undefined") {
+                element.innerText = text;
+            } else {
+                element.textContent = text;
+            }
+        }
+
+        //兼容代码，获取任意标签中的任意内容
+        function getInnerText(element) {
+            if (typeof element.textContent == "undefined") {
+                return element.innerText;
+            } else {
+                return element.textContent;
+            }
+        }
+
+    }
+</script>
+</body>
+</html>
