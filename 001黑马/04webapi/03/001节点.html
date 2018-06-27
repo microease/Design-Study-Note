@@ -10,16 +10,33 @@
         <span>测试span标签</span>
         <input type="text" value="测试input标签">
         <a href="">测试a标签</a>
-        <ul>
+        <ul id="ul1">
             <li>测试li标签</li>
             <li>测试li标签</li>
-            <li>测试li标签</li>
+            <li id="three">测试li标签</li>
             <li>测试li标签</li>
             <li>测试li标签</li>
         </ul>
     </div>
+    <script src="common.js"></script>
     <script>
-        document.get
+        var ulObj = my$("ul1");
+        //获取父级节点
+        console.log(ulObj.parentNode);
+        //获取父级元素
+        console.log(ulObj.parentElement);
+        //获取子级节点
+        console.log(ulObj.childNodes);
+        //获取子级元素
+        console.log(ulObj.children);
+        //获取前一个兄弟节点
+        console.log(my$("three").previousSibling);
+        //获取前一个兄弟元素
+        console.log(my$("three").previousElementSibling);
+        //获取后一个兄弟节点
+        console.log(my$("three").nextSibling);
+        //获取后一个兄弟元素
+        console.log(my$("three").nextElementSibling);
     </script>
 </body>
 </html>
