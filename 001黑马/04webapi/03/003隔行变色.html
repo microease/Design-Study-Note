@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="隔行变色" id="btn">
+<ul id="ul1">
+    <li>测试li标签</li>
+    <li>测试li标签</li>
+    <li>测试li标签</li>
+    <li>测试li标签</li>
+    <li>测试li标签</li>
+    <li>测试li标签</li>
+</ul>
+<script src="common.js"></script>
+<script>
+    my$("btn").onclick = function () {
+        var nodeObjs = my$("ul1").childNodes;
+        var licount = 0;
+        for (var i = 0; i < nodeObjs.length; i++) {
+            if (nodeObjs[i].nodeType == 1 && nodeObjs[i].nodeName == "LI") {
+                licount++;
+                nodeObjs[i].style.backgroundColor = licount % 2 == 0 ? "red" : "blue";
+            }
+        }
+    }
+</script>
+</body>
+</html>

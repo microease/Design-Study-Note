@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            width: 300px;
+            height: 300px;
+            background-color: #cccccc;
+            border:1px solid red;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <input type="button" value="点击变色" id="btn"><br>
+        <span>1</span><br>
+        <span>1</span><br>
+        <span id="span3"></span><br>
+        <a href="http://www.wzxdm.com">我在写代码</a><br>
+        <p>cess</p>
+    </div>
+<script src="common.js"></script>
+<script>
+    my$("btn").onclick=function () {
+        var divObj = my$("div1");
+        var nodeObj = divObj.childNodes;
+        console.log(nodeObj);
+        for (var i = 0;i < nodeObj.length;i++){
+            if (nodeObj[i].nodeType==1&&nodeObj[i].nodeName=="A"){
+                nodeObj[i].style.backgroundColor="red";
+            }
+        }
+    }
+</script>
+</body>
+</html>
