@@ -4,41 +4,65 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        table td{
-            border:1px solid red;
+        table td {
+            border: 1px solid red;
             width: 100px;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td><input type="checkbox" value="全选" id="tr1"></td>
-            <td>菜单</td>
-            <td>饭店</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" value="全选" id="tr2"></td>
-            <td>红烧猪脚</td>
-            <td>厨师A</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" value="全选" id="tr3"></td>
-            <td>红烧猪脚</td>
-            <td>厨师A</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" value="全选" id="tr4"></td>
-            <td>红烧猪脚</td>
-            <td>厨师A</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" value="全选" id="tr5"></td>
-            <td>红烧猪脚</td>
-            <td>厨师A</td>
-        </tr>
-    </table>
+<table>
+    <thead>
+    <td><input type="checkbox" value="全选" id="tr1"></td>
+    <td>菜单</td>
+    <td>饭店</td>
+    </thead>
+    <tbody id="tbody1">
+    <tr>
+        <td><input type="checkbox" value="全选" id="tr2"></td>
+        <td>红烧猪脚</td>
+        <td>厨师A</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" value="全选" id="tr3"></td>
+        <td>红烧猪脚</td>
+        <td>厨师A</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" value="全选" id="tr4"></td>
+        <td>红烧猪脚</td>
+        <td>厨师A</td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" value="全选" id="tr5"></td>
+        <td>红烧猪脚</td>
+        <td>厨师A</td>
+    </tr>
+    </tbody>
 
+</table>
+<script src="common.js"></script>
+<script>
+    var ckAll = my$("tr1");
+    var ckBody = my$("tbody1").getElementsByTagName("input");
+    ckAll.onclick = function () {
+        for (var i = 0; i < ckBody.length; i++) {
+            ckBody[i].checked = this.checked;
+        }
+    }
+    for (var j = 0; j < ckBody.length; j++) {
+        ckBody[j].onclick = function () {
+            var flag = true;
+            for (var k = 0; k < ckBody.length; k++) {
+                if (!ckBody[k].checked) {
+                    flag = false;
+                    break;
+                }
+            }
+            ckAll.checked = flag;
+        }
+    }
+</script>
 </body>
 </html>
