@@ -3,32 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        #div1{
+            border:1px solid red;
+            width: 400px;
+            height: 400px;
+
+        }
+    </style>
 </head>
 <body>
 <input type="button" value="动态创建列表" id="btn1">
 <div id="div1">
-<li>ces</li>
 </div>
 <script src="common.js"></script>
 <script>
-    var test = ["测试1", "测试2", "测试3", "测试4", "测试5", "测试6", "测试7", "测试8", "测试9"];
-    my$("btn1").onclick = function () {
-        var str = "<ul id='ul1'>";
-        for (var i = 0; i < test.length; i++) {
-            str += "<li>" + test[i] + "</li>";
-        }
+    var test1 = ["测试1", "测试2", "测试3", "测试4", "测试5", "测试6", "测试7", "测试8", "测试9"];
+     my$("btn1").onclick = function () {
+        var str = "<ul style='list-style-type: none;cursor: pointer'>";
+        for (var i = 0; i < test1.length; i++) {
+            str += "<li>" + test1[i] + "</li>";
+        };
         str += "</ul>";
         my$("div1").innerHTML = str;
-    };
-    //添加高亮显示效果
-    var list = my$("div1").getElementsByTagName("li");
-    for (var j = 0; j < list.length; j++) {
-        list[j].onmouseover = function () {
-            this.style.backgroundColor = "red";
-        };
-        list[j].onmouseout = function () {
-            this.style.backgroundColor = "";
-        }
+         //添加高亮显示效果
+         var listObj = my$("div1").getElementsByTagName("li");
+         console.log(listObj);
+         for (var j = 0; j < listObj.length; j++) {
+             listObj[j].onmouseover = function () {
+                 this.style.backgroundColor = "yellow";
+             };
+             listObj[j].onmouseout = function () {
+                 this.style.backgroundColor = "";
+             }
+         }
     }
 </script>
 </body>

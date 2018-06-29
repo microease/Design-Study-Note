@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="创建列表" id="btn1">
+<div id="div1"></div>
+<script src="common.js"></script>
+<script>
+    var KungFu = ["降龙十八掌", "黯然销魂掌", "葵花宝典", "九阴真经", "吸星大法", "如来神掌", "化骨绵掌", "玉女心经"]
+    my$("btn1").onclick = function () {
+        var ulObj = document.createElement("ul");
+        for (var i =0;i<KungFu.length;i++){
+            var liObj = document.createElement("li");
+            liObj.innerHTML=KungFu[i];
+            ulObj.appendChild(liObj);
+            liObj.onmouseover=function () {
+                this.style.backgroundColor="red";
+            }
+            liObj.onmouseout=function () {
+                this.style.backgroundColor="";
+            }
+        }
+        my$("div1").appendChild(ulObj);
+
+    }
+</script>
+</body>
+</html>
