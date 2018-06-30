@@ -124,15 +124,12 @@ my$("randomAll").onclick=function(){
     for (var i = 0;i<ulObj.length;i++){
         ulObj[i]  = ulObj[randomOne];
         console.log(ulObj);
-
     }
 }
-
-
-
 my$("randomOne").onclick = function () {
-    ulObj[randomOne].style.backgroundColor = "red";
-    ulObj[randomOne].style.color = "white";
+    ulObj[randomOne].children.style.backgroundColor = "red";
+    ulObj[randomOne].children.style.color = "white";
+
 };
 
 my$("randomTwo").onclick = function () {
