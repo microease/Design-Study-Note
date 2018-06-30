@@ -113,12 +113,31 @@ for (var i = 0; i < nameList.length; i++) {
     names += "<li>" + nameList[i] + "</li>";
 }
 names += "</ul>";
+
 my$("names").innerHTML = names;
-var liObj = my$("names").getElementsByTagName("li");
-var randomOne =  Math.floor(Math.random()*100+1);;
+var ulObj = my$("names").getElementsByTagName("li");
+var randomOne = Math.floor(Math.random() * 100 + 1);
+
+//随机打乱
+
+my$("randomAll").onclick=function(){
+    for (var i = 0;i<ulObj.length;i++){
+        ulObj[i]  = ulObj[randomOne];
+        console.log(ulObj);
+
+    }
+}
+
+
 
 my$("randomOne").onclick = function () {
-    liObj[randomOne].style.backgroundColor = "red";
-    liObj[randomOne].style.color="white";
-}
-console.log(randomOne);
+    ulObj[randomOne].style.backgroundColor = "red";
+    ulObj[randomOne].style.color = "white";
+};
+
+my$("randomTwo").onclick = function () {
+    for (i = 0; i < 2; i++) {
+        ulObj[randomOne].style.backgroundColor = "red";
+        ulObj[randomOne].style.color = "white";
+    }
+};
