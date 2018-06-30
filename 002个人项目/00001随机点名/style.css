@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.head{
+    text-align: center;
+    border:1px solid red;
+    box-sizing: border-box;
+}
+.body{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.body ul{
+    width: 100%;
+    margin:0 auto;
+    list-style: none;
+}
+.body li{
+    width: 10%;
+    border:1px solid red;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
