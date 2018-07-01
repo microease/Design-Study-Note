@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="绑定事件" id="btn1">
+<input type="button" value="解绑事件" id="btn2">
+<div id="div1">
+
+</div>
+<script src="common.js"></script>
+<script>
+    // my$("btn1").onclick=function () {
+    //     my$("div1").innerHTML="测试1";
+    // }
+    // my$("btn2").onclick=function () {
+    //     my$("btn1").onclick=null;
+    // }
+    function f1() {
+        console.log("测试1");
+    }
+    my$("btn1").addEventListener("click",f1,false);
+    my$("btn2").onclick=function(){
+        my$("btn1").removeEventListener("click",f1,false);
+    }
+</script>
+</body>
+</html>
