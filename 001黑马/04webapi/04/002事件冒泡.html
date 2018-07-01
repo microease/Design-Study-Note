@@ -41,6 +41,7 @@
     }
     my$("div3").onclick=function () {
         console.log(this.id);
+        window.event.cancelBubble=true;//取消事件冒泡
     }
     document.body.onclick=function () {
         console.log("body");
