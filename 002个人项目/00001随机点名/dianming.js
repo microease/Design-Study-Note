@@ -119,13 +119,13 @@ var ulObj = my$("names").getElementsByTagName("li");
 var randomOne = Math.floor(Math.random() * 100 + 1);
 
 //随机打乱
-
-my$("randomAll").onclick=function(){
-    for (var i = 0;i<ulObj.length;i++){
-        ulObj[i]  = ulObj[randomOne];
-        console.log(ulObj);
-    }
-}
+//
+// my$("randomAll").onclick=function(){
+//     for (var i = 0;i<ulObj.length;i++){
+//         ulObj[i]  = ulObj[randomOne];
+//         console.log(ulObj);
+//     }
+// }
 my$("randomOne").onclick = function () {
     ulObj[randomOne].children.style.backgroundColor = "red";
     ulObj[randomOne].children.style.color = "white";
