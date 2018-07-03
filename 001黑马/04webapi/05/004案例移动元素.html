@@ -20,20 +20,37 @@
 </head>
 <body>
 <input type="button" value="移动400px" id="btn1">
+<input type="button" value="移动800px" id="btn2">
+<input type="button" value="归位" id="btn3">
 
 <div id="div1"></div>
 <script src="common.js"></script>
 <script>
+
     my$("btn1").onclick = function () {
+        animate(my$("div1"), 400)
+    };
+
+    my$("btn2").onclick = function () {
+        animate(my$("div1"), 800)
+    };
+    my$("btn3").onclick = function () {
+        animate(my$("div1"), 40)
+    };
+
+    function animate(element, target) {
         var time1 = setInterval(function () {
-            var currLeft = my$("div1").offsetLeft;
+            var currLeft = element.offsetLeft;
             var step = 10;
-            if (currLeft <= 400) {
-                currLeft += step;
-            }else {
-                clearInterval(time1)
+            step = currLeft < target ? step : -step;
+            currLeft += step;
+            if (Math.abs(target - currLeft) > Math.abs(step) ) {
+                console.log(currLeft);
+                element.style.left = currLeft + "px";
+            } else {
+                clearInterval(time1);
+                element.style.left = target + "px";
             }
-            my$("div1").style.left = currLeft + "px";
         }, 20);
     }
 </script>
