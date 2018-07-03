@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1 {
+            width: 200px;
+            height: 200px;
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+<div id="div1"></div>
+<input type="button" value="点击变色" id="btn1">
+<script src="common.js"></script>
+<script>
+    var opacity = 10;
+    my$("btn1").onclick = function () {
+        var time1 = setInterval(function () {
+            opacity--;
+            if(opacity<=0){
+                clearInterval(time1);
+            }
+            my$("div1").style.opacity = opacity / 10;
+        }, 100)
+    }
+</script>
+</body>
+</html>
