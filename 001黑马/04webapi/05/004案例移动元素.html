@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #div1 {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            position: absolute;
+            left: 40px;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="移动400px" id="btn1">
+
+<div id="div1"></div>
+<script src="common.js"></script>
+<script>
+    my$("btn1").onclick = function () {
+        var time1 = setInterval(function () {
+            var currLeft = my$("div1").offsetLeft;
+            var step = 10;
+            if (currLeft <= 400) {
+                currLeft += step;
+            }else {
+                clearInterval(time1)
+            }
+            my$("div1").style.left = currLeft + "px";
+        }, 20);
+    }
+</script>
+</body>
+</html>

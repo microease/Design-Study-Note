@@ -21,7 +21,14 @@
     <input type="button" value="点击变宽" id="btn1">
 <script src="common.js"></script>
 <script>
-    
+    my$("btn1").onclick=function () {
+        var w1=300;
+        var h1=300;
+        timeId1 = setInterval(function () {
+            w1++;
+            my$("div1").style.width=w1+"px";
+        },100)
+    }
 </script>
 </body>
 </html>
