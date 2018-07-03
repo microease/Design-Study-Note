@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+
+    </style>
 </head>
 <body>
 
+    <img src="" alt="" id="mm">
+
+<script src="common.js"></script>
+<script>
+    setInterval(function () {
+        var thisTime = new Date();
+        var thisMin = thisTime.getMinutes();
+        var thisHour = thisTime.getHours();
+        var thisSeconds = thisTime.getSeconds();
+        thisHour = thisHour < 10 ?"0"+thisHour:thisHour;
+        thisMin = thisMin < 10 ?"0"+thisMin:thisMin;
+        thisSeconds = thisSeconds < 10 ?"0"+thisSeconds:thisSeconds;
+        console.log(thisSeconds);
+        my$("mm").src="meimei/"+thisHour+"_"+thisMin+".jpg"
+    },1000)
+
+</script>
 </body>
 </html>
