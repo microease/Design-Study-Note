@@ -39,12 +39,13 @@
     };
 
     function animate(element, target) {
+        clearInterval(time1);
         var time1 = setInterval(function () {
             var currLeft = element.offsetLeft;
             var step = 10;
             step = currLeft < target ? step : -step;
             currLeft += step;
-            if (Math.abs(target - currLeft) > Math.abs(step) ) {
+            if (Math.abs(target - currLeft) > Math.abs(step)) {
                 console.log(currLeft);
                 element.style.left = currLeft + "px";
             } else {
