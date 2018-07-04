@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" id="btn" value="点击停止">
+
+<script>
+    var timeId = setInterval(function () {
+        alert("hello,huyankai");
+    }, 1000);
+    document.getElementById("btn").onclick=function () {
+        window.clearInterval(timeId);
+    }
+</script>
+</body>
+</html>
