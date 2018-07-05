@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 734px;
+            height: 456px;
+            margin: 20px auto;
+        }
+
+        .inner {
+            width: 730px;
+            height: 454px;
+            position: relative;
+            border: 1px solid red;
+            padding-left: 2px;
+            overflow: hidden;
+        }
+        .inner ul{
+            width: 1000%;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .inner ul li {
+            list-style: none;
+            float: left;
+        }
+
+        .square {
+            position: absolute;
+            bottom: 2px;
+            right: 5px;
+        }
+        .square span {
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            background-color: orange;
+            color: #fff;
+            display: block;
+            float: left;
+            margin: 0 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .square span.current {
+            background-color: #fff;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="box1">
+    <div class="inner">
+        <ul>
+            <li><a href=""><img src="images/1.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/2.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/3.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/4.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/5.jpg" alt=""></a></li>
+        </ul>
+        <div class="square">
+            <span class="current">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+        </div>
+    </div>
+</div>
+<script src="../common.js"></script>
+<script>
+    var box = my$("box1");
+    var inner = box.children[0];
+    var ulObj = inner.children[0];
+    var spanObj = inner.children[1].children;
+    var imageWidth = inner.offsetWidth;
+    for (var i = 0; i < spanObj.length; i++) {
+        spanObj[i].setAttribute("index", i);
+        spanObj[i].onmouseover = function () {
+            for (var j = 0; j < spanObj.length; j++) {
+                spanObj[j].removeAttribute("class");
+            }
+            this.className = "current";
+            var index = this.getAttribute("index");
+            animate(ulObj, -index * imageWidth);
+        }
+    }
+</script>
+</body>
+</html>

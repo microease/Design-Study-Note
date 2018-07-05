@@ -203,3 +203,20 @@ function removeEventListener(element,type,fn) {
         element["on"+type]=null;
     }
 }
+//动画函数，任意一个元素移动到任意位置
+function animate(element, target) {
+    clearInterval(time1);
+    var time1 = setInterval(function () {
+        var currLeft = element.offsetLeft;
+        var step = 10;
+        step = currLeft < target ? step : -step;
+        currLeft += step;
+        if (Math.abs(target - currLeft) > Math.abs(step)) {
+            console.log(currLeft);
+            element.style.left = currLeft + "px";
+        } else {
+            clearInterval(time1);
+            element.style.left = target + "px";
+        }
+    }, 20);
+}
