@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 734px;
+            height: 456px;
+            margin: 20px auto;
+        }
+
+        .inner {
+            width: 730px;
+            height: 454px;
+            position: relative;
+            border: 1px solid red;
+            padding-left: 2px;
+            /*overflow: hidden;*/
+        }
+
+        .inner ul {
+            width: 1000%;
+            top: 0;
+            left: 0;
+        }
+
+        .inner ul li {
+            list-style: none;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div class="box" id="box1">
+    <div class="inner">
+        <ul>
+            <li><a href=""><img src="images/1.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/2.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/3.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/4.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/5.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/1.jpg" alt=""></a></li>
+        </ul>
+    </div>
+</div>
+<script src="../common.js"></script>
+<script>
+    function f1() {
+        var ulObj = my$("box1").children[0];
+        current -= 10;
+        if (current < -3650) {
+            ulObj.style.left = 0 + "px";
+            current = 0;
+        } else {
+            ulObj.style.left = current + "px";
+        }
+    }
+    var current = 0;
+    var timeId1 = setInterval(f1, 20);
+    my$("box1").onmouseover = function () {
+        clearInterval(timeId1);
+    };
+    my$("box1").onmouseout = function () {
+        timeId1 = setInterval(f1, 20);
+    }
+</script>
+</body>
+</html>

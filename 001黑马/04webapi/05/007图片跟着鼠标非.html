@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #img1{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<img src="../images/tianshi.gif" id="img1">
+<script src="common.js"></script>
+<script>
+    document.onmouseover = function (e) {
+        my$("img1").style.left = e.clientX + "px";
+        my$("img1").style.top = e.clientY + "px";
+    }
+</script>
+</body>
+</html>

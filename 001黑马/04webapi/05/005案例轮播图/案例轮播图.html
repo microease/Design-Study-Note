@@ -10,11 +10,11 @@
         }
 
         .box {
-            width: 734px;
-            height: 456px;
+            width: 740px;
+            height: 460px;
             margin: 20px auto;
+            position: relative;
         }
-
         .inner {
             width: 730px;
             height: 454px;
@@ -49,15 +49,16 @@
          }
         .inner ul{
             width: 1000%;
-            position: relative;
             top: 0;
             left: 0;
+            position: absolute;
         }
         .inner ul li {
             list-style: none;
             float: left;
+            width: 730px;
+            height: 454px;
         }
-
         .square {
             position: absolute;
             bottom: 2px;
@@ -91,6 +92,7 @@
             <li><a href=""><img src="images/3.jpg" alt=""></a></li>
             <li><a href=""><img src="images/4.jpg" alt=""></a></li>
             <li><a href=""><img src="images/5.jpg" alt=""></a></li>
+            <li><a href=""><img src="images/1.jpg" alt=""></a></li>
         </ul>
         <div class="square">
             <span class="current">1</span>
@@ -129,8 +131,8 @@
     };
     box.onmouseout=function(){
         focusD.style.display = "none";
-    }
-    var index1 = 0
+    };
+    var index1 = 0;
     my$("left").onclick = function () {
         if(index1>0){
             index1--;
@@ -142,6 +144,23 @@
             index1++;
         }
         animate(ulObj,-index1*imageWidth);
+    };
+    function f1() {
+        current -= 10;
+        if (current < -3650) {
+            ulObj.style.left = 0 + "px";
+            current = 0;
+        } else {
+            ulObj.style.left = current + "px";
+        }
+    }
+    var current = 0;
+    var timeId1 = setInterval(f1, 20);
+    my$("box1").onmouseover = function () {
+        clearInterval(timeId1);
+    };
+    my$("box1").onmouseout = function () {
+        timeId1 = setInterval(f1, 20);
     }
 </script>
 </body>
