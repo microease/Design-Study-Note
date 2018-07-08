@@ -200,8 +200,8 @@ var EventTools= {
     }
 
 };
-
-//获取元素的当前位置,移动,每次移动多少像素
+//
+// 获取元素的当前位置,移动,每次移动多少像素
 // function animate(element,target) {
 //     //每次调用这个函数的时候先清理之前的计时器
 //     clearInterval(element.setId);
@@ -224,4 +224,3 @@ var EventTools= {
 //         }
 //     },20);
 // }
-//
