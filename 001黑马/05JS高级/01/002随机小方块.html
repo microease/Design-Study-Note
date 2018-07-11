@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .map {
+            width: 800px;
+            height: 600px;
+            background-color: #ccc;
+            margin: 20px auto;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="map">
+
+</div>
+<script>
+    //产生随机数对象
+    (function (window) {
+        function Random() {
+        }
+
+        Random.prototype.getRandom = function (min, max) {
+            return Math.floor(Math.random() * (max - min) - min);
+        };
+        window.Random = new Random();
+    })(window);
+    //自调用构造函数，把局部变量暴露给window顶级变量，就成了全局变量
+    console.log(Random.getRandom(0, 10));
+
+
+    (function (window) {
+        var map = document.querySelector(".map");
+        function Food(width, height, color) {
+            this.width = width || 20;
+            this.height = height || 20;
+            this.color = color;
+            this.x = 0;
+            this.y = 0;
+            this.element = document.createElement("div");
+        }
+
+        //初始化小方块的显示效果和位置
+        Food.prototype.init = function (map) {
+            var food = this.element;
+            food.style.position = "absolute";
+            food.style.width = this.width + "px";
+            food.style.height = this.height + "px";
+            food.style.backgroundColor = this.color;
+            map.appendChild(food);
+            this.render(map);
+        };
+        //产生随机位置
+        Food.prototype.render = function (map) {
+            var x = Random.getRandom(0, map.offsetWidth / this.width) * this.width;
+            var y = Random.getRandom(0, map.offsetHeight / this.height) * this.height;
+            this.x = x;
+            this.y = y;
+            var food = this.element;
+            food.style.left = this.x + "px";
+            food.style.top = this.y + "px";
+        }
+        var food1 = new Food(20, 20, "green");
+        food1.init(map);
+    })(window);
+</script>
+</body>
+</html>
