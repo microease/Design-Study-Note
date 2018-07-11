@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function people(name,sex) {
+            this.name = name;
+            this.sex = sex;
+        }
+        people.prototype.eat = function () {
+            console.log("吃好吃的");
+        };
+        var microease = new people("microease","男");
+        console.log(microease.eat());
+    </script>
+</body>
+</html>
