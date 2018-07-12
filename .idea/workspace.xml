@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4247e9d2-49fa-4fd7-8df5-51ae5138e25c" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/01/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/02/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,27 +19,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="001prototype.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="002随机小方块.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/common.js">
+        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/common.js">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="001贪吃蛇.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -58,6 +50,7 @@
       <list>
         <option value="$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html" />
+        <option value="$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html" />
       </list>
     </option>
   </component>
@@ -70,9 +63,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="144" />
-    <option name="y" value="89" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
     <option name="width" value="1280" />
     <option name="height" value="702" />
   </component>
@@ -101,12 +94,6 @@
               <item name="Web-Study-Note" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
               <item name="001黑马" type="462c0819:PsiDirectoryNode" />
-              <item name="04webapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Study-Note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
-              <item name="001黑马" type="462c0819:PsiDirectoryNode" />
               <item name="05JS高级" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -114,7 +101,7 @@
               <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
               <item name="001黑马" type="462c0819:PsiDirectoryNode" />
               <item name="05JS高级" type="462c0819:PsiDirectoryNode" />
-              <item name="01" type="462c0819:PsiDirectoryNode" />
+              <item name="02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,6 +118,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/001黑马/05JS高级/02" />
+      <recent name="$PROJECT_DIR$/001黑马/05JS高级" />
+      <recent name="$PROJECT_DIR$/001黑马/05JS高级/01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/001黑马/05JS高级/01" />
     </key>
   </component>
@@ -146,15 +138,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.002随机小方块.html">
+  <component name="RunManager" selected="JavaScript Debug.001贪吃蛇.html">
+    <configuration name="001贪吃蛇.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/02/001贪吃蛇.html" />
     <configuration name="001prototype.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/01/001prototype.html" />
     <configuration name="002随机小方块.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/01/002随机小方块.html" />
     <list>
       <item itemvalue="JavaScript Debug.001prototype.html" />
       <item itemvalue="JavaScript Debug.002随机小方块.html" />
+      <item itemvalue="JavaScript Debug.001贪吃蛇.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.001贪吃蛇.html" />
         <item itemvalue="JavaScript Debug.002随机小方块.html" />
         <item itemvalue="JavaScript Debug.001prototype.html" />
       </list>
@@ -171,18 +166,19 @@
       <option name="presentableId" value="Default" />
       <updated>1531274351532</updated>
       <workItem from="1531274354777" duration="992000" />
-      <workItem from="1531326937170" duration="2592000" />
+      <workItem from="1531326937170" duration="3148000" />
+      <workItem from="1531393157702" duration="5482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3584000" />
+    <option name="totallyTimeSpent" value="9622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="704" extended-state="6" />
+    <frame x="-1" y="24" width="1280" height="702" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1984375" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -191,7 +187,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -212,13 +208,6 @@
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
           <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
@@ -228,8 +217,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        <state relative-caret-position="1534">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="68" column="15" lean-forward="true" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
         </state>
       </provider>
     </entry>
