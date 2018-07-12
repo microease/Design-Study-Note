@@ -34,7 +34,7 @@
         //为原型添加初始化方法,用于在页面显示食物
         //因为食物要在地图上显示，所以需要地图的这个参数
         Food.prototype.init = function (map) {
-            remove();全职23
+            remove();
             var div = document.createElement("div");
             map.appendChild(div);
             div.style.width = this.width + "px";
@@ -47,36 +47,58 @@
             div.style.top = this.y + "px";
             elements.push(div);
         }
-        function remove(){
-            for (var i = 0;i<elements.length;i++){
+
+        function remove() {
+            for (var i = 0; i < elements.length; i++) {
                 var ele = elements[i];
                 ele.parentNode.removeChild(ele);
-                ele.species(i,1);
+                ele.species(i, 1);
             }
 
         }
+
         window.Food = Food;
     }
     ());
     //小蛇的构造函数
     (function () {
-        function Snake(width,height,direction) {
+        var elements = [];
+        function Snake(width, height, direction) {
             //小蛇的每个部分的宽
-            this.width = width||20;
-            this.height = height||20;
-            this.direction = direction||"right";
+            this.width = width || 20;
+            this.height = height || 20;
+            this.direction = direction || "right";
             this.body = [
-                {x:3,y:2,color:"red"},
-                {x:2,y:2,color:"orange"},
-                {x:1,y:2,color:"orange"}
+                {x: 3, y: 2, color: "red"},
+                {x: 2, y: 2, color: "orange"},
+                {x: 1, y: 2, color: "orange"}
             ];
         }
+
+        Snake.prototype.init = function (map) {
+            //循环遍历
+            for (var i = 0; i < this.body.length; i++) {
+                var obj = this.body[i];
+                var div = document.createElement("div");
+                map.appendChild(div);
+                div.style.position = "absolute";
+                div.style.width = this.width + "px";
+                div.style.height = this.height + "px";
+                div.style.left = obj.x * this.width + "px";
+                div.style.top = obj.y * this.height + "px";
+                div.style.backgroundColor = obj.color;
+                //方向没有写
+                elements.push(div);
+            }
+        };
+        window.Snake = Snake;
     }
-        ());
+    ());
     var fd = new Food();
+    var snake = new Snake();
     fd.init(document.querySelector(".map"));
+    snake.init(document.querySelector(".map"));
     console.log(fd.height);
-    console.log(elements);
 </script>
 </body>
 </html>
