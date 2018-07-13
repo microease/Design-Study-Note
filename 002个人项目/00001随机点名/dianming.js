@@ -116,25 +116,10 @@ names += "</ul>";
 
 my$("names").innerHTML = names;
 var ulObj = my$("names").getElementsByTagName("li");
-var randomOne = Math.floor(Math.random() * 100 + 1);
-
-//随机打乱
-//
-// my$("randomAll").onclick=function(){
-//     for (var i = 0;i<ulObj.length;i++){
-//         ulObj[i]  = ulObj[randomOne];
-//         console.log(ulObj);
-//     }
-// }
 my$("randomOne").onclick = function () {
-    ulObj[randomOne].children.style.backgroundColor = "red";
-    ulObj[randomOne].children.style.color = "white";
-
-};
-
-my$("randomTwo").onclick = function () {
-    for (i = 0; i < 2; i++) {
-        ulObj[randomOne].style.backgroundColor = "red";
-        ulObj[randomOne].style.color = "white";
-    }
+    var time1 = setInterval(function () {
+        for (var i = 0;i<ulObj.length;i++){
+            this.style.backgroundColor="red";
+        }
+    },10)
 };
