@@ -113,6 +113,19 @@
                     this.body[0].y += 1;
                     break;
             }
+            var headX = this.body[0].x * this.width;
+            var headY = this.body[0].y * this.height;
+            var foodX = food.x;
+            var foodY = food.y;
+            if (headX == foodX && headY == foodY) {
+                var last = this.body[this.body.length-1];
+                this.body.push({
+                    x:last.x,
+                    y:last.y,
+                    color:"green",
+                });
+                food.init(map);
+            }
         };
 
         function remove() {

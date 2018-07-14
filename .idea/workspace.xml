@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4247e9d2-49fa-4fd7-8df5-51ae5138e25c" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="001贪吃蛇.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+            <state relative-caret-position="402">
+              <caret line="124" column="34" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -169,12 +168,12 @@
       <workItem from="1531414571423" duration="17000" />
       <workItem from="1531442279797" duration="598000" />
       <workItem from="1531482426408" duration="9390000" />
-      <workItem from="1531524198704" duration="1066000" />
+      <workItem from="1531524198704" duration="2399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23197000" />
+    <option name="totallyTimeSpent" value="24530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1280" height="702" extended-state="0" />
@@ -303,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="182" column="23" selection-start-line="182" selection-start-column="23" selection-end-line="182" selection-end-column="23" />
+        <state relative-caret-position="402">
+          <caret line="124" column="34" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
         </state>
       </provider>
     </entry>
