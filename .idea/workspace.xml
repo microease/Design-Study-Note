@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4247e9d2-49fa-4fd7-8df5-51ae5138e25c" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/04/03浅拷贝.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/04/04深拷贝.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码强度.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,9 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03浅拷贝.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/03浅拷贝.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="10案例验证密码的强度.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码的强度.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-156">
+              <caret line="89" column="3" lean-forward="true" selection-start-line="62" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10案例验证密码强度.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码强度.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -45,6 +57,7 @@
         <option value="$PROJECT_DIR$/001黑马/05JS高级/03/01函数作为返回值练习.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/03/02地柜.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/03/03递归案例.html" />
+        <option value="$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码强度.html" />
       </list>
     </option>
   </component>
@@ -117,13 +130,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/001黑马/05JS高级/01" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/001黑马/05JS高级/04" />
       <recent name="$PROJECT_DIR$/001黑马/05JS高级/02" />
       <recent name="$PROJECT_DIR$/001黑马/05JS高级" />
+      <recent name="$PROJECT_DIR$/001黑马/05JS高级/01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/001黑马/05JS高级/01" />
     </key>
   </component>
@@ -139,26 +152,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.03递归案例.html">
+  <component name="RunManager" selected="JavaScript Debug.10案例验证密码强度.html">
     <configuration name="001贪吃蛇.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/02/001贪吃蛇.html" />
-    <configuration name="002随机小方块.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/01/002随机小方块.html" />
     <configuration name="01函数作为返回值练习.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/03/01函数作为返回值练习.html" />
     <configuration name="02递归.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/03/02递归.html" />
     <configuration name="03递归案例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/03/03递归案例.html" />
+    <configuration name="10案例验证密码强度.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/04/10案例验证密码强度.html" />
     <list>
-      <item itemvalue="JavaScript Debug.002随机小方块.html" />
       <item itemvalue="JavaScript Debug.001贪吃蛇.html" />
       <item itemvalue="JavaScript Debug.01函数作为返回值练习.html" />
       <item itemvalue="JavaScript Debug.02递归.html" />
       <item itemvalue="JavaScript Debug.03递归案例.html" />
+      <item itemvalue="JavaScript Debug.10案例验证密码强度.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.10案例验证密码强度.html" />
         <item itemvalue="JavaScript Debug.03递归案例.html" />
         <item itemvalue="JavaScript Debug.02递归.html" />
         <item itemvalue="JavaScript Debug.01函数作为返回值练习.html" />
         <item itemvalue="JavaScript Debug.001贪吃蛇.html" />
-        <item itemvalue="JavaScript Debug.002随机小方块.html" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +198,16 @@
       <workItem from="1531783698141" duration="1067000" />
       <workItem from="1531837285588" duration="1120000" />
       <workItem from="1531846998281" duration="553000" />
+      <workItem from="1531873934593" duration="542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32892000" />
+    <option name="totallyTimeSpent" value="33434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1984375" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -221,6 +236,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/03浅拷贝.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/03浅拷贝.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -372,7 +390,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/03浅拷贝.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码的强度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="89" column="3" lean-forward="true" selection-start-line="62" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码强度.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
