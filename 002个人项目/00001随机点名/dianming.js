@@ -115,11 +115,57 @@ for (var i = 0; i < nameList.length; i++) {
 names += "</ul>";
 
 my$("names").innerHTML = names;
-var ulObj = my$("names").getElementsByTagName("li");
+
+var liObj = my$("names").getElementsByTagName("li");
+
 my$("randomOne").onclick = function () {
-    var time1 = setInterval(function () {
-        for (var i = 0;i<ulObj.length;i++){
-            this.style.backgroundColor="red";
+    window.clearInterval(timeId1);
+    var timeId1 = setInterval(function () {
+        var num = parseInt(Math.random()*100);
+        for(var i = 0;i<liObj.length;i++){
+            if (i == num) {
+                liObj[i].className = "red";
+            } else {
+                liObj[i].className = "";
+            }
         }
-    },10)
+    },1);
+    my$("end").onclick = function () {
+        clearInterval(timeId1);
+    }
+};
+my$("randomTwo").onclick = function () {
+    var timeId2 = setInterval(function () {
+        var num1 = parseInt(Math.random()*100);
+        var num2 = parseInt(Math.random()*100);
+        for(var i = 0;i<liObj.length;i++){
+            if (i == num1||i==num2) {
+                liObj[i].className = "red";
+            } else {
+                liObj[i].className = "";
+            }
+        }
+    },1)
+    my$("end").onclick = function () {
+        clearInterval(timeId2);
+    }
+};
+
+
+my$("randomThree").onclick = function () {
+    var timeId3 = setInterval(function () {
+        var num1 = parseInt(Math.random()*100);
+        var num2 = parseInt(Math.random()*100);
+        var num3 = parseInt(Math.random()*100);
+        for(var i = 0;i<liObj.length;i++){
+            if (i == num1||i==num2||i==num3) {
+                liObj[i].className = "red";
+            } else {
+                liObj[i].className = "";
+            }
+        }
+    },1)
+    my$("end").onclick = function () {
+        clearInterval(timeId3);
+    }
 };

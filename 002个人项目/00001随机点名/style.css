@@ -15,11 +15,16 @@
     width: 100%;
     margin:0 auto;
     list-style: none;
+    box-sizing: border-box;
 }
 .body li{
-    width: 10%;
+    width: 50%;
     border:1px solid red;
     float: left;
     box-sizing: border-box;
     text-align: center;
+}
+.body li.red{
+    background-color: red;
+    color:white;
 }
