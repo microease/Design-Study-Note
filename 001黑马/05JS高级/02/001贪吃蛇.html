@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         .map {
             width: 800px;
             height: 600px;
             background-color: #ccc;
             position: relative;
-            margin: 20px auto;
+            margin: 0px auto;
         }
     </style>
 </head>
@@ -52,7 +57,7 @@
             for (var i = 0; i < elements.length; i++) {
                 var ele = elements[i];
                 ele.parentNode.removeChild(ele);
-                ele.species(i, 1);
+                elements.splice(i, 1);
             }
 
         }
@@ -63,6 +68,7 @@
     //小蛇的构造函数
     (function () {
         var elements = [];
+
         function Snake(width, height, direction) {
             //小蛇的每个部分的宽
             this.width = width || 20;
@@ -76,6 +82,7 @@
         }
 
         Snake.prototype.init = function (map) {
+            remove();
             //循环遍历
             for (var i = 0; i < this.body.length; i++) {
                 var obj = this.body[i];
@@ -91,14 +98,125 @@
                 elements.push(div);
             }
         };
+        Snake.prototype.move = function (food, map) {
+            var i = this.body.length - 1;
+            for (; i > 0; i--) {
+                this.body[i].x = this.body[i - 1].x;
+                this.body[i].y = this.body[i - 1].y;
+            }
+            switch (this.direction) {
+                case "right":
+                    this.body[0].x += 1;
+                    break;
+                case "left":
+                    this.body[0].x -= 1;
+                    break;
+                case "top":
+                    this.body[0].y -= 1;
+                    break;
+                case "bottom":
+                    this.body[0].y += 1;
+                    break;
+            }
+            var headX = this.body[0].x * this.width;
+            var headY = this.body[0].y * this.height;
+            var foodX = food.x;
+            var foodY = food.y;
+            if (headX == foodX && headY == foodY) {
+                var last = this.body[this.body.length - 1];
+                this.body.push({
+                    x: last.x,
+                    y: last.y,
+                    color: last.color,
+                });
+                food.init(map);
+            }
+        };
+
+        function remove() {
+            var i = elements.length - 1;
+            for (; i >= 0; i--) {
+                var ele = elements[i];
+                ele.parentNode.removeChild(ele);
+                elements.splice(i, 1);
+            }
+        };
         window.Snake = Snake;
     }
     ());
-    var fd = new Food();
-    var snake = new Snake();
-    fd.init(document.querySelector(".map"));
-    snake.init(document.querySelector(".map"));
-    console.log(fd.height);
+
+    (function () {
+        var that = null;
+
+        function Game(map) {
+            this.food = new Food();
+            this.snake = new Snake();
+            this.map = map;
+            that = this;
+        }
+
+        Game.prototype.init = function () {
+            this.food.init(this.map);
+            this.snake.init(this.map);
+            this.runSnake(this.food, this.map);
+            this.bindKey();
+        };
+        Game.prototype.runSnake = function (food, map) {
+            //自动移动
+            var timeId = setInterval(function () {
+                this.snake.move(food, map);
+                this.snake.init(map);
+                var maxX = map.offsetWidth / this.snake.width;
+                var maxY = map.offsetHeight / this.snake.height;
+                var headX = this.snake.body[0].x;
+                var headY = this.snake.body[0].y;
+                if (headX < 0 || headX >= maxX) {
+                    alert("你撞到横向的墙了");
+                    clearInterval(timeId);
+                }
+                if (headY < 0 || headY >= maxY) {
+                    clearInterval(timeId);
+                    alert("你撞到纵向的墙了");
+                }
+                //这个是自己增加的代码,很开心，实现了撞到自己就提示
+                for (var i = 1; i < this.snake.body.length; i++) {
+                    var snakeBodyX = this.snake.body[i].x;
+                    var snakeBodyY = this.snake.body[i].y;
+                    if (snakeBodyX==headX&&headY==snakeBodyY){
+                        alert("你撞到自己了");
+                    }
+                }
+            }.bind(that), 100);
+        };
+        Game.prototype.bindKey = function () {
+            document.addEventListener("keydown", function (e) {
+                switch (e.keyCode) {
+                    case 37:
+                        this.snake.direction = "left";
+                        break;
+                    case 38:
+                        this.snake.direction = "top";
+                        break;
+                    case 39:
+                        this.snake.direction = "right";
+                        break;
+                    case 40:
+                        this.snake.direction = "bottom";
+                        break;
+
+                }
+            }.bind(that), false);
+        };
+        window.Game = Game;
+    }
+    ());
+
+    var gm = new Game(document.querySelector(".map"));
+    gm.init();
+    // var fd = new Food();
+    // var snake = new Snake();
+    // fd.init(document.querySelector(".map"));
+    // console.log(fd.height);
 </script>
 </body>
 </html>

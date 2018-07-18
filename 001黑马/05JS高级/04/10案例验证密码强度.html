@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            left: 300px;
+            top: 100px;
+        }
+        .strengthLv0 {
+            height: 6px;
+            width: 120px;
+            border: 1px solid #ccc;
+            padding: 2px;
+        }
+
+        .strengthLv1 {
+            background: red;
+            height: 6px;
+            width: 40px;
+            border: 1px solid #ccc;
+            padding: 2px;
+        }
+
+        .strengthLv2 {
+            background: orange;
+            height: 6px;
+            width: 80px;
+            border: 1px solid #ccc;
+            padding: 2px;
+        }
+
+        .strengthLv3 {
+            background: green;
+            height: 6px;
+            width: 120px;
+            border: 1px solid #ccc;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <lable for="pwd"></lable>
+        <input type="text" id="pwd" maxlength="16">
+        <div>
+            <em>密码强度：</em>
+            <em id="strength"></em>
+            <div id="strengthLevel" class="strengthLv0"></div>
+        </div>
+    </div>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+    my$("pwd").onkeyup=function () {
+        //每次键盘抬起都要获取文本框中的内容,验证文本框中有什么东西,得到一个级别,然后下面的div显示对应的颜色
+        //如果密码的长度是小于6的,没有必要判断
+        if (this.value.length >= 6) {
+            var lvl = getLvl(this.value);
+            my$("strengthLevel").className = "strengthLv" + lvl;
+        } else {
+            my$("strengthLevel").className = "strengthLv0";
+        }
+        my$("strengthLevel").className="strengthLv"+(this.value.length>=6?getLvl(this.value) :0);
+    };
+
+    //给我密码,我返回对应的级别
+    function getLvl(pwd) {
+        var lvl=0;//默认是0级
+        //密码中是否有数字,或者是字母,或者是特殊符号
+        if(/[0-9]/.test(pwd)){
+            lvl++;
+        }
+        //判断密码中有没有字母
+        if(/[a-zA-Z]/.test(pwd)){
+            lvl++;
+        }
+        //判断密码中有没有特殊符号
+        if(/[^0-9a-zA-Z_]/.test(pwd)){
+            lvl++;
+        }
+        return lvl;//最小的值是1,最大值是3
+    }
+    }
+</script>
+</body>
+</html>
