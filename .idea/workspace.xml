@@ -4,6 +4,10 @@
     <list default="true" id="4247e9d2-49fa-4fd7-8df5-51ae5138e25c" name="默认" comment="">
       <change afterPath="$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码强度.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/002个人项目/00001随机点名/dianming.js" beforeDir="false" afterPath="$PROJECT_DIR$/002个人项目/00001随机点名/dianming.js" afterDir="false" />
+=======
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +21,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/002个人项目/00001随机点名/1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+=======
       <file leaf-file-name="10案例验证密码的强度.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码的强度.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-156">
               <caret line="89" column="3" lean-forward="true" selection-start-line="62" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/002个人项目/00001随机点名/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dianming.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/002个人项目/00001随机点名/dianming.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+=======
       <file leaf-file-name="10案例验证密码强度.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码强度.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="24" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
             </state>
           </provider>
         </entry>
@@ -53,11 +82,15 @@
         <option value="$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/002个人项目/00001随机点名/dianming.js" />
+=======
         <option value="$PROJECT_DIR$/001黑马/05JS高级/03/01函数作为返回值联系.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/03/01函数作为返回值练习.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/03/02地柜.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/03/03递归案例.html" />
         <option value="$PROJECT_DIR$/001黑马/05JS高级/04/10案例验证密码强度.html" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
       </list>
     </option>
   </component>
@@ -74,9 +107,6 @@
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="707" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -99,12 +129,15 @@
             <path>
               <item name="Web-Study-Note" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
-              <item name="001黑马" type="462c0819:PsiDirectoryNode" />
-              <item name="05JS高级" type="462c0819:PsiDirectoryNode" />
+              <item name="002个人项目" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web-Study-Note" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="002个人项目" type="462c0819:PsiDirectoryNode" />
+              <item name="00001随机点名" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="001黑马" type="462c0819:PsiDirectoryNode" />
               <item name="05JS高级" type="462c0819:PsiDirectoryNode" />
               <item name="03" type="462c0819:PsiDirectoryNode" />
@@ -115,6 +148,7 @@
               <item name="001黑马" type="462c0819:PsiDirectoryNode" />
               <item name="05JS高级" type="462c0819:PsiDirectoryNode" />
               <item name="04" type="462c0819:PsiDirectoryNode" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
             </path>
           </expand>
           <select />
@@ -152,14 +186,32 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="001贪吃蛇.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/02/001贪吃蛇.html" />
+    <configuration name="001prototype.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/01/001prototype.html" />
+    <configuration name="002随机小方块.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/01/002随机小方块.html" />
+    <configuration name="1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/002个人项目/00001随机点名/1.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/002个人项目/00001随机点名/index.html" />
+=======
   <component name="RunManager" selected="JavaScript Debug.10案例验证密码强度.html">
     <configuration name="001贪吃蛇.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/02/001贪吃蛇.html" />
     <configuration name="01函数作为返回值练习.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/03/01函数作为返回值练习.html" />
     <configuration name="02递归.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/03/02递归.html" />
     <configuration name="03递归案例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/03/03递归案例.html" />
     <configuration name="10案例验证密码强度.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/05JS高级/04/10案例验证密码强度.html" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
     <list>
       <item itemvalue="JavaScript Debug.001贪吃蛇.html" />
+<<<<<<< HEAD
+      <item itemvalue="JavaScript Debug.1.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.1.html" />
+=======
       <item itemvalue="JavaScript Debug.01函数作为返回值练习.html" />
       <item itemvalue="JavaScript Debug.02递归.html" />
       <item itemvalue="JavaScript Debug.03递归案例.html" />
@@ -171,6 +223,7 @@
         <item itemvalue="JavaScript Debug.03递归案例.html" />
         <item itemvalue="JavaScript Debug.02递归.html" />
         <item itemvalue="JavaScript Debug.01函数作为返回值练习.html" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
         <item itemvalue="JavaScript Debug.001贪吃蛇.html" />
       </list>
     </recent_temporary>
@@ -188,6 +241,10 @@
       <workItem from="1531274354777" duration="992000" />
       <workItem from="1531326937170" duration="3148000" />
       <workItem from="1531393157702" duration="5603000" />
+<<<<<<< HEAD
+      <workItem from="1531409969508" duration="2337000" />
+      <workItem from="1531459800315" duration="551000" />
+=======
       <workItem from="1531409969508" duration="2383000" />
       <workItem from="1531414571423" duration="17000" />
       <workItem from="1531442279797" duration="598000" />
@@ -198,19 +255,36 @@
       <workItem from="1531783698141" duration="1067000" />
       <workItem from="1531837285588" duration="1120000" />
       <workItem from="1531846998281" duration="553000" />
+<<<<<<< HEAD
       <workItem from="1531873934593" duration="575000" />
+=======
+      <workItem from="1531873934593" duration="542000" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
+>>>>>>> c05e897c477f352671f17bc1d3f75ed08d513c37
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="33467000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="12631000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="33434000" />
+>>>>>>> c05e897c477f352671f17bc1d3f75ed08d513c37
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="6" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1984375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19791667" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -218,14 +292,17 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+<<<<<<< HEAD
+=======
       <window_info anchor="bottom" id="Debug" order="3" weight="0.24473257" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -311,6 +388,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1664">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/common.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1820">
           <caret line="70" column="40" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
         </state>
@@ -323,16 +410,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/common.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1534">
-          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/common.js" />
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html" />
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -340,13 +419,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="68" column="15" lean-forward="true" selection-start-line="68" selection-start-column="15" selection-end-line="68" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/002随机小方块.html" />
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/001prototype.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
@@ -354,15 +427,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/common.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/01/common.js" />
+    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/05javascript高级/03-JavaScript-高级-第2天/04源代码/03案例小贪吃蛇.html" />
     <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/common.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/05JS高级/02/001贪吃蛇.html">
+    <entry file="file://$PROJECT_DIR$/002个人项目/00001随机点名/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="338">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002个人项目/00001随机点名/dianming.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="121" column="45" lean-forward="true" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/002个人项目/00001随机点名/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+=======
         <state relative-caret-position="138">
           <caret line="183" column="58" lean-forward="true" selection-start-line="183" selection-start-column="58" selection-end-line="183" selection-end-column="58" />
         </state>
@@ -407,6 +503,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="73" column="23" lean-forward="true" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="24" />
+>>>>>>> ef4334caf3cf82076737226ce6c363cddc71cdeb
         </state>
       </provider>
     </entry>
