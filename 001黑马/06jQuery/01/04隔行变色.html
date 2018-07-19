@@ -20,8 +20,9 @@
 <script src="jquery-1.12.4.js"></script>
 <script>
     $(function () {
-        var lis = $("li");
-
+        $("li:even").css("backgroundColor","red");
+        $("li:odd").css("backgroundColor","blue");
+        $("li").css("color","yellow");
     });
 </script>
 </body>

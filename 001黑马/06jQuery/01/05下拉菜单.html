@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            list-style: none;
+            margin:0;
+            padding:0;
+        }
+        .wrap{
+            margin:50px auto;
+            width: 300px;
+            height: 100px;
+        }
+        .wrap ul{
+            display: block;
+        }
+        .wrap > ul > li {
+            position: relative;
+            float: left;
+        }
+        .wrap ul li a{
+            display: block;
+            width: 100px;
+            height: 20px;
+            float: left;
+            text-decoration: none;
+            color:black;
+            background-color: hotpink;
+
+        }
+        #ul{
+            position: absolute;
+            top:30px;
+            width: 100px;
+            height: 80px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <ul>
+            <li><a href="">一级菜单1</a>
+                <ul id="ul">
+                    <li>二级菜单1</li>
+                    <li>二级菜单1</li>
+                    <li>二级菜单1</li>
+                </ul>
+            </li>
+            <li><a href="">一级菜单2</a>
+                <ul id="ul">
+                    <li>二级菜单2</li>
+                    <li>二级菜单2</li>
+                    <li>二级菜单2</li>
+                </ul>
+            </li>
+            <li><a href="">一级菜单3</a>
+                <ul id="ul">
+                    <li>二级菜单3</li>
+                    <li>二级菜单3</li>
+                    <li>二级菜单3</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+<script src="jquery-1.12.4.js"></script>
+<script>
+    $(".wrap>ul>li").mouseenter(function () {
+        $(this).children("ul").show();
+    })
+    $(".wrap>ul>li").mouseleave(function () {
+        $(this).children("ul").hide();
+
+    })
+
+</script>
+</body>
+</html>
