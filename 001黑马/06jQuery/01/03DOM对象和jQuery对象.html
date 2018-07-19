@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li id="cloth">衣服</li>
+        <li>裤子</li>
+        <li>袜子</li>
+    </ul>
+<script src="jquery-1.12.4.js"></script>
+<script>
+    $(function () {
+        //DOM对象
+       var cloth = document.getElementById("cloth");
+       cloth.style.backgroundColor="pink";
+       $(cloth).text("aa");
+       //jQ对象
+       //  var $li = $("li")
+       //  $li.text("aaa");
+
+        $li[1].style.backgroundColor="red";
+    });
+</script>
+</body>
+</html>
