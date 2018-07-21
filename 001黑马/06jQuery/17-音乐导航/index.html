@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +33,7 @@
             font-size: 24px;
             color: blue;
             text-align: center;
-            line-height:60px;
+            line-height: 60px;
             text-decoration: none;
             z-index: 2;
         }
@@ -50,15 +49,15 @@
     <script src="jquery-1.12.4.js"></script>
     <script>
         $(function () {
-           $(".nav li").mouseenter(function () {
-               $(this).children("span").stop().animate({top:0});
-                var idx = $(this).index()+1;
-               console.log(idx);
-               $("audio").get(idx).load();
-               $("audio").get(idx).play();
-           }).mouseleave(function () {
-               $(this).children("span").stop().animate({top:60});
-           });
+            $(".nav li").mouseenter(function () {
+                $(this).children("span").stop().animate({top: 0});
+                var idx = $(this).index();
+                console.log(idx);
+                $("audio").get(idx).load();
+                $("audio").get(idx).play();
+            }).mouseleave(function () {
+                $(this).children("span").stop().animate({top: 60});
+            });
         });
     </script>
 </head>
