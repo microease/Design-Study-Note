@@ -47,32 +47,25 @@
             top: 60px;
         }
     </style>
-    <script src="../jquery-1.12.4.js"></script>
+    <script src="jquery-1.12.4.js"></script>
     <script>
         $(function () {
-            $(".nav li").mouseenter(function () {
-                $(this).children("span").stop().animate({top:0});
-
-                var idx = $(this).index();
-                //让对应的音乐播放, 音乐播放的方法时DOM对象。
-                $("audio").get(idx).load();
-                $("audio").get(idx).play();
-            }).mouseleave(function () {
-                $(this).children("span").stop().animate({top:60});
-            });
-
-
-
+           $(".nav li").mouseenter(function () {
+               $(this).children("span").stop().animate({top:0});
+                var idx = $(this).index()+1;
+               console.log(idx);
+               $("audio").get(idx).load();
+               $("audio").get(idx).play();
+           }).mouseleave(function () {
+               $(this).children("span").stop().animate({top:60});
+           });
         });
     </script>
 </head>
 <body>
 <div class="nav">
     <ul>
-        <li>
-            <a href="javascript:void(0);">导航1</a>
-            <span></span>
-        </li>
+        <li><a href="javascript:void(0);">导航1</a><span></span></li>
         <li><a href="javascript:void(0);">导航2</a><span></span></li>
         <li><a href="javascript:void(0);">导航3</a><span></span></li>
         <li><a href="javascript:void(0);">导航4</a><span></span></li>
