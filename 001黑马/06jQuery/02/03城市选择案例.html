@@ -47,7 +47,13 @@
            $("#src-city>option").appendTo("#tar-city");
         });
         $("#btn2").click(function () {
-            $("#src-city").appendTo("#tar-city>option");
+            $("#src-city").append($("#tar-city>option"));
+        });
+        $("#btn3").click(function () {
+            $("#src-city>option:selected").appendTo("#tar-city");
+        });
+        $("#btn4").click(function () {
+            $("#src-city").append($("#tar-city>option:selected"));
         });
     });
 
