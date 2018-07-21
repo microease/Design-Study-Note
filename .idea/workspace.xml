@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6fb37-0342-4f2c-8124-a71fd9e91648" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/02创建节点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/03城市选择案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/19-城市选择案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/01-页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/01-页面.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/jquery-1.12.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/jquery-1.12.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/movie/movie01.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/movie/movie01.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/1.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/1.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/2.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/2.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/3.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/3.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/4.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/4.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/5.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/5.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/6.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/6.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/7.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/7.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/8.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/8.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/mp3/9.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/mp3/9.ogg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,20 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/index.html">
+      <file leaf-file-name="03城市选择案例.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/03城市选择案例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-页面.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/01-页面.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1166">
-              <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+            <state relative-caret-position="453">
+              <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -59,6 +66,8 @@
         <option value="$PROJECT_DIR$/001黑马/06jQuery/02/14-手风琴案例/index.html" />
         <option value="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/01-页面.html" />
         <option value="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/index.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/02/02创建节点.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/02/03城市选择案例.html" />
       </list>
     </option>
   </component>
@@ -109,13 +118,6 @@
               <item name="06jQuery" type="462c0819:PsiDirectoryNode" />
               <item name="02" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Web-Study-Note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
-              <item name="001黑马" type="462c0819:PsiDirectoryNode" />
-              <item name="06jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="17-音乐导航" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -128,10 +130,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/001黑马/06jQuery/02" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/001黑马/06jQuery/02" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery" />
-      <recent name="$PROJECT_DIR$/001黑马/06jQuery/02" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery/02/12-京东轮播图" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery/01/15-淘宝精品案例" />
     </key>
@@ -148,26 +153,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="01-页面初始化.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/14-手风琴案例/01-页面初始化.html" />
+  <component name="RunManager" selected="JavaScript Debug.03城市选择案例.html">
     <configuration name="01-页面.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/17-音乐导航/01-页面.html" />
-    <configuration name="index1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/12-京东轮播图/index1.html" />
+    <configuration name="02创建节点.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/02创建节点.html" />
+    <configuration name="03城市选择案例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/03城市选择案例.html" />
     <configuration name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/14-手风琴案例/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/17-音乐导航/index.html" />
     <list>
-      <item itemvalue="JavaScript Debug.index1.html" />
-      <item itemvalue="JavaScript Debug.01-页面初始化.html" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.01-页面.html" />
+      <item itemvalue="JavaScript Debug.02创建节点.html" />
+      <item itemvalue="JavaScript Debug.03城市选择案例.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.03城市选择案例.html" />
+        <item itemvalue="JavaScript Debug.02创建节点.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.01-页面.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.01-页面初始化.html" />
-        <item itemvalue="JavaScript Debug.index1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -181,12 +186,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532125861229</updated>
-      <workItem from="1532125865612" duration="10764000" />
+      <workItem from="1532125865612" duration="12254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10764000" />
+    <option name="totallyTimeSpent" value="12254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="704" extended-state="0" />
@@ -311,20 +316,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/jquery-1.12.4.js">
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/jquery-1.12.4.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/01-页面.html">
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/01-页面.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1166">
-          <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航/index.html">
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/17-音乐导航/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/02创建节点.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/19-城市选择案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="16" lean-forward="true" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/03城市选择案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
         </state>
       </provider>
     </entry>
