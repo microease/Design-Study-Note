@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6fb37-0342-4f2c-8124-a71fd9e91648" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/01/15-淘宝精品案例/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/001css操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/03-tab栏切换/imgs/guojidapai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/03-tab栏切换/imgs/guozhuangmingpin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/03-tab栏切换/imgs/nanshijingpin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/03-tab栏切换/imgs/qingjieyongpin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/03-tab栏切换/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/jquery-1.12.4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/01/06手风琴案例-Test.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/07-表格全选案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/02/05-美女相册/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/02/05-美女相册/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/03-tab栏切换/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/05-美女相册/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07-表格全选案例.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/07-表格全选案例.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -51,6 +63,8 @@
         <option value="$PROJECT_DIR$/001黑马/06jQuery/01/06手风琴案例-Test.html" />
         <option value="$PROJECT_DIR$/001黑马/06jQuery/01/15-淘宝精品案例/index2.html" />
         <option value="$PROJECT_DIR$/001黑马/06jQuery/02/001css操作.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/02/05-美女相册/index.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/02/07-表格全选案例.html" />
       </list>
     </option>
   </component>
@@ -101,23 +115,6 @@
               <item name="06jQuery" type="462c0819:PsiDirectoryNode" />
               <item name="02" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Web-Study-Note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
-              <item name="001黑马" type="462c0819:PsiDirectoryNode" />
-              <item name="06jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="03-tab栏切换" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web-Study-Note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web-Study-Note" type="462c0819:PsiDirectoryNode" />
-              <item name="001黑马" type="462c0819:PsiDirectoryNode" />
-              <item name="06jQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="02" type="462c0819:PsiDirectoryNode" />
-              <item name="03-tab栏切换" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -147,17 +144,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.07-表格全选案例.html">
     <configuration name="001css操作.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/001css操作.html" />
+    <configuration name="07-表格全选案例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/07-表格全选案例.html" />
     <configuration name="index2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/01/15-淘宝精品案例/index2.html" />
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/05-美女相册/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/02/03-tab栏切换/index.html" />
     <list>
       <item itemvalue="JavaScript Debug.index2.html" />
       <item itemvalue="JavaScript Debug.001css操作.html" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.07-表格全选案例.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.07-表格全选案例.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.001css操作.html" />
         <item itemvalue="JavaScript Debug.index2.html" />
@@ -174,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532125861229</updated>
-      <workItem from="1532125865612" duration="2521000" />
+      <workItem from="1532125865612" duration="4929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2521000" />
+    <option name="totallyTimeSpent" value="4929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="704" extended-state="0" />
@@ -253,7 +256,21 @@
     <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/03-tab栏切换/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/05-美女相册/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/07-表格全选案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
         </state>
       </provider>
     </entry>
