@@ -28,7 +28,15 @@
     <script src="../jquery-1.12.4.js"></script>
     <script>
         $(function () {
-            
+            $(window).scroll(function () {
+                if($(window).scrollTop()>=$(".top").height()){
+                    $(".nav").addClass("fixed");
+                    $(".main").css("marginTop",$(".top").height()+10);
+                }else{
+                    $(".nav").removeClass("fixed");
+                    $(".main").css("marginTop",10);
+                }
+            });
         });
     </script>
 
