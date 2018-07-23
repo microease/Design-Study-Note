@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6fb37-0342-4f2c-8124-a71fd9e91648" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/01五星评分案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/08-钢琴版导航条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/8.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/mp3/9.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/18-五星评分案例.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html" beforeDir="false" afterPath="$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,20 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12-表格删除功能-1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能-1.html">
+      <file leaf-file-name="18-五星评分案例.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/18-五星评分案例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="207" column="142" selection-start-line="207" selection-start-column="142" selection-end-line="207" selection-end-column="142" />
+            <state relative-caret-position="-399">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12-表格删除功能.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html">
+      <file leaf-file-name="01五星评分案例.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/01五星评分案例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="217" column="22" lean-forward="true" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+            <state relative-caret-position="98">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -68,6 +79,10 @@
         <option value="$PROJECT_DIR$/001黑马/06jQuery/03/06-固定导航案例/test.html" />
         <option value="$PROJECT_DIR$/001黑马/06jQuery/03/07-小火箭返回顶部案例/test.html" />
         <option value="$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能-1.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/08-钢琴版导航条.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/03/18-五星评分案例.html" />
+        <option value="$PROJECT_DIR$/001黑马/06jQuery/03/01五星评分案例.html" />
       </list>
     </option>
   </component>
@@ -130,15 +145,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/001黑马/06jQuery/02" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/001黑马/06jQuery/03" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery/02" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery/17-音乐导航" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery" />
       <recent name="$PROJECT_DIR$/001黑马/06jQuery/02/12-京东轮播图" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/001黑马/06jQuery/02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -153,26 +168,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.12-表格删除功能-1.html">
+  <component name="RunManager" selected="JavaScript Debug.01五星评分案例.html">
+    <configuration name="01五星评分案例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/01五星评分案例.html" />
+    <configuration name="08-钢琴版导航条.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/16-钢琴案例/08-钢琴版导航条.html" />
     <configuration name="12-表格删除功能-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/12-表格删除功能-1.html" />
     <configuration name="12-表格删除功能.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/12-表格删除功能.html" />
-    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/06-固定导航案例/index.html" />
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/07-小火箭返回顶部案例/index.html" />
-    <configuration name="test.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/07-小火箭返回顶部案例/test.html" />
+    <configuration name="18-五星评分案例.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web-Study-Note/001黑马/06jQuery/03/18-五星评分案例.html" />
     <list>
-      <item itemvalue="JavaScript Debug.index.html (1)" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.test.html (1)" />
       <item itemvalue="JavaScript Debug.12-表格删除功能.html" />
       <item itemvalue="JavaScript Debug.12-表格删除功能-1.html" />
+      <item itemvalue="JavaScript Debug.08-钢琴版导航条.html" />
+      <item itemvalue="JavaScript Debug.18-五星评分案例.html" />
+      <item itemvalue="JavaScript Debug.01五星评分案例.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.01五星评分案例.html" />
+        <item itemvalue="JavaScript Debug.18-五星评分案例.html" />
+        <item itemvalue="JavaScript Debug.08-钢琴版导航条.html" />
         <item itemvalue="JavaScript Debug.12-表格删除功能-1.html" />
         <item itemvalue="JavaScript Debug.12-表格删除功能.html" />
-        <item itemvalue="JavaScript Debug.test.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -188,12 +203,15 @@
       <updated>1532125861229</updated>
       <workItem from="1532125865612" duration="14664000" />
       <workItem from="1532205043747" duration="296000" />
-      <workItem from="1532227572645" duration="4038000" />
+      <workItem from="1532227572645" duration="4333000" />
+      <workItem from="1532276136614" duration="1185000" />
+      <workItem from="1532306207834" duration="6000" />
+      <workItem from="1532344824041" duration="1651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18998000" />
+    <option name="totallyTimeSpent" value="22135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="704" extended-state="0" />
@@ -230,6 +248,48 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4761">
+          <caret line="207" column="52" selection-start-line="207" selection-start-column="52" selection-end-line="207" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5336">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4761">
+          <caret line="207" column="52" selection-start-line="207" selection-start-column="52" selection-end-line="207" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5336">
+          <caret line="232" lean-forward="true" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4577">
+          <caret line="199" column="31" lean-forward="true" selection-start-line="199" selection-start-column="31" selection-end-line="199" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4991">
+          <caret line="217" column="22" lean-forward="true" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/02/22-弹幕效果.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2553">
@@ -418,15 +478,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="217" column="22" lean-forward="true" selection-start-line="217" selection-start-column="22" selection-end-line="217" selection-end-column="22" />
+        <state relative-caret-position="305">
+          <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/12-表格删除功能-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="207" column="142" selection-start-line="207" selection-start-column="142" selection-end-line="207" selection-end-column="142" />
+        <state relative-caret-position="190">
+          <caret line="207" column="52" selection-start-line="207" selection-start-column="52" selection-end-line="207" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/16-钢琴案例/08-钢琴版导航条.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/18-五星评分案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/001黑马/06jQuery/03/01五星评分案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
