@@ -26,7 +26,19 @@
   <script src="jquery-1.12.4.js"></script>
   <script>
     $(function () {
-        
+        var wjxK = "☆";
+        var wjxS = "★";
+        $(".comment>li").on("mouseenter",function () {
+            $(this).text(wjxS).prevAll().text(wjxS);
+            $(this).nextAll().text(wjxK);
+        })
+        $(".comment").on("mouseleave",function () {
+            $(this).children().text(wjxK);
+            $("li.current").text(wjxS).prevAll().text(wjxS);
+        })
+        $(".comment>li").on("click",function () {
+            $(this).addClass("current").siblings().removeClass("currents");
+        })
     })
   </script>
   
