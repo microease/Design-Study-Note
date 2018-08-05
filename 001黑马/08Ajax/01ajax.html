@@ -14,6 +14,9 @@
         var xhr = new XMLHttpRequest()
         xhr.open('GET','http://localhost:7888/time.php')
         xhr.send()
+        xhr.onreadystatechange = function(){
+            console.log(1);
+        }
     </script>
 </body>
 </html>
