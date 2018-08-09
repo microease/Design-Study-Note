@@ -1,0 +1,18 @@
+2018-08-09 01:22:02: -- 分析开始 On File Change Incremental
+2018-08-09 01:22:04: 变更：12， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 94
+2018-08-09 01:22:04: Left to Right: Copy File: 12 
+2018-08-09 01:22:04: == 同步开始由 On File Change Incremental
+2018-08-09 01:22:07: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/categories.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/categories.php' (5,404)
+2018-08-09 01:22:09: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/comments.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/comments.php' (5,292)
+2018-08-09 01:22:11: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/index.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/index.php' (3,515)
+2018-08-09 01:22:13: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/login.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/login.php' (1,050)
+2018-08-09 01:22:15: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/nav-menus.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/nav-menus.php' (5,468)
+2018-08-09 01:22:17: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/password-reset.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/password-reset.php' (3,784)
+2018-08-09 01:22:19: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/post-add.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/post-add.php' (4,800)
+2018-08-09 01:22:21: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/posts.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/posts.php' (5,806)
+2018-08-09 01:22:22: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/profile.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/profile.php' (4,777)
+2018-08-09 01:22:24: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/settings.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/settings.php' (4,897)
+2018-08-09 01:22:26: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/slides.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/slides.php' (5,286)
+2018-08-09 01:22:28: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/users.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/users.php' (6,422)
+2018-08-09 01:22:31: == 同步完成. 历时: 00:00:27, 速度: 3.9 KB/s, 完成: 12, 错误: 0
+2018-08-09 01:22:31: 

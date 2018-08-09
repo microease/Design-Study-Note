@@ -1,0 +1,7 @@
+2018-08-09 22:11:42: -- 分析开始 On File Change Incremental
+2018-08-09 22:11:44: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 98
+2018-08-09 22:11:44: Left to Right: Copy File: 1 
+2018-08-09 22:11:44: == 同步开始由 On File Change Incremental
+2018-08-09 22:11:48: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/settings.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/settings.php' (3,341)
+2018-08-09 22:11:51: == 同步完成. 历时: 00:00:07, 速度: 835.0/s, 完成: 1, 错误: 0
+2018-08-09 22:11:51: 
