@@ -4,24 +4,24 @@ function login(){
         $GLOBALS['errorMessage'] = '请填写邮箱';
         return;
     }
-    if(empty($_POST['password'])){
-        $GLOBALS['errorMessage'] = '请填写密码';
-        return;
-    }
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-    if($email !== 'microease@gmail.com'){
-        $GLOBALS['errorMessage'] = '邮箱错';
-        return;
-    }
-    if($password !== 'huyankai'){
-        $GLOBALS['errorMessage'] = '密码错';
-        return;
-    }
-    header('Location: /admin/');
+//    if(empty($_POST['password'])){
+//        $GLOBALS['errorMessage'] = '请填写密码';
+//        return;
+//    }
+//    $email = $_POST['email'];
+//    $password = $_POST['password'];
+//    if($email !== 'microease@gmail.com'){
+//        $GLOBALS['errorMessage'] = '邮箱错';
+//        return;
+//    }
+//    if($password !== 'huyankai'){
+//        $GLOBALS['errorMessage'] = '密码错';
+//        return;
+//    }
+//    header('Location: /admin/');
 }
 if($_SERVER['REQUEST_METHOD']==='POST'){
-login();
+    login();
 }
 ?>
 <!DOCTYPE html>
@@ -36,7 +36,7 @@ login();
 </head>
 <body>
   <div class="login">
-    <form class="login-wrap<?php echo isset($errorMessage)? ' shake animated':'' ?>" action="<?php echo $_SERVER['PHP_SELF'];?>" method="post" autocomplete="off" novalidate>
+    <form class="login-wrap<?php echo isset($errorMessage)? ' shake animated':'' ?>" action="<?php echo $_SERVER['PHP_SELF'];?>" method="POST">
       <img class="avatar" src="../static/assets/img/default.png">
       <!-- 有错误信息时展示 -->
       <!-- <div class="alert alert-danger">
