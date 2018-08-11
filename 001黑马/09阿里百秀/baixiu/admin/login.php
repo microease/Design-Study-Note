@@ -1,6 +1,6 @@
 <?php
-function login()
-{
+require_once '../config.php';
+function login(){
     if (empty($_POST['email'])) {
         $GLOBALS['errorMessage'] = '请填写邮箱';
         return;
@@ -15,7 +15,7 @@ function login()
     if (!$conn) {
         exit('<h1>链接数据库失败</h1>');
     }
-    $query = mysqli_query($conn, "select * from users where email = ''{$email}' limit 1;");
+    $query = mysqli_query($conn, "select * from users where email = '{$email}' limit 1;");
     if (!$query) {
         $GLOBALS['errorMessage'] = '登录失败，请重试';
         return;
@@ -37,6 +37,7 @@ function login()
 //        $GLOBALS['errorMessage'] = '密码错';
 //        return;
 //    }
+    $_SESSION['current_login_user'] = $user;
     header('Location: /admin/');
 }
 
@@ -80,5 +81,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button class="btn btn-primary btn-block">登 录</button>
     </form>
 </div>
+<script src="../static/assets/vendors/jquery/jquery.js"></script>
+<script>
+    $(function ($) {
+        //在用户输入自己的邮箱之后展示这个用户的邮箱对应的头像
+        $('#email').on('blur',function () {
+            var value = $(this).val()
+            if(!$value) return
+        })
+    })
+</script>
 </body>
 </html>

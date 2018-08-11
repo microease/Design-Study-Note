@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(empty($_SESSION['current_login_user'])){
+    //没有当前登录信息
+    header('Location:login.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>

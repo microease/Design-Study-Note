@@ -1,0 +1,7 @@
+2018-08-11 06:52:53: -- 分析开始 On File Change Incremental
+2018-08-11 06:52:54: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 207
+2018-08-11 06:52:54: Left to Right: Copy File: 1 
+2018-08-11 06:52:54: == 同步开始由 On File Change Incremental
+2018-08-11 06:52:57: 覆盖复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/config.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/config.php' (375)
+2018-08-11 06:53:00: == 同步完成. 历时: 00:00:06, 速度: 125.0/s, 完成: 1, 错误: 0
+2018-08-11 06:53:00: 
