@@ -1,6 +1,8 @@
 <?php
 require_once '../config.php';
-function login(){
+session_start();
+function login()
+{
     if (empty($_POST['email'])) {
         $GLOBALS['errorMessage'] = '请填写邮箱';
         return;
@@ -21,11 +23,11 @@ function login(){
         return;
     }
     $user = mysqli_fetch_assoc($query);
-    if (!user) {
+    if (!$user) {
         $GLOBALS['errorMessage'] = '邮箱和密码不匹配';
         return;
     }
-    if($user['password'] !== $password){
+    if ($user['password'] !== $password) {
         $GLOBALS['errorMessage'] = '邮箱和密码不匹配';
         return;
     }
@@ -37,7 +39,7 @@ function login(){
 //        $GLOBALS['errorMessage'] = '密码错';
 //        return;
 //    }
-    $_SESSION['current_login_user'] = $user;
+    $_SESSION['current_login_user_id'] = $user['id'];
     header('Location: /admin/');
 }
 
@@ -85,9 +87,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <script>
     $(function ($) {
         //在用户输入自己的邮箱之后展示这个用户的邮箱对应的头像
-        $('#email').on('blur',function () {
-            var value = $(this).val()
-            if(!$value) return
+        var emailFormat = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/
+        //定义判断邮箱的正则表达式
+        $('#email').on('blur', function () {
+            //获取失去焦点事件
+            var value = $(this).val();
+            //此处的value就是输入的邮箱
+            if (!value || !emailFormat.test(value)) return
+            //如果邮箱符合正则规则，继续
+            $.get('/admin/api/avatar.php', {email: value}, function (res) {
+                //从avatar.php中获取头像图片
+                if (!res) return
+                $('.avatar').fadeOut(function () {
+                    $(this).on('load',function () {
+                        $(this).fadeIn()
+                    }).attr('src',res)
+                })
+            })
         })
     })
 </script>

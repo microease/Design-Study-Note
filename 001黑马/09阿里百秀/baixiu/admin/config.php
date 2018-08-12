@@ -1,12 +1,5 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: huxiaoyi
- * Date: 2018/8/11
- * Time: 上午6:52
- */
-<?php
-/**
  * 项目配置文件
  */
 

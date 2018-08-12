@@ -1,4 +1,9 @@
-<?php echo $_SERVER['PHP_SELF']?>
+<?php
+$currentPage = isset($currentPage) ? $currentPage : '';
+require_once '../../functions.php';
+$currentUser = get_current_user();
+
+?>
 <div class="aside">
     <div class="profile">
         <img class="avatar" src="../static/uploads/avatar.png">

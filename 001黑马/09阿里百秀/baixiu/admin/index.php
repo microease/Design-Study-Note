@@ -1,9 +1,7 @@
 <?php
+require_once '../functions.php';
 session_start();
-if(empty($_SESSION['current_login_user'])){
-    //没有当前登录信息
-    header('Location:login.php');
-}
+get_current_user();
 ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
