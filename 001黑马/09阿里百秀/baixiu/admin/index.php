@@ -6,7 +6,6 @@ $post_drafted_count = xiu_fetch_one('select count(1) as num  from posts where st
 $categories_count = xiu_fetch_one('select count(1) as num  from categories;')['num'];
 $comments_count = xiu_fetch_one('select count(1) as num  from comments;')['num'];
 $comments_approved_count = xiu_fetch_one('select count(1)  as num from comments where status="approved";')['num'];
-
 ?>
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -26,8 +25,8 @@ $comments_approved_count = xiu_fetch_one('select count(1)  as num from comments 
     <?php include 'inc/navbar.php' ?>
     <div class="container-fluid">
         <div class="jumbotron text-center">
-            <h1>One Belt, One Road</h1>
-            <p>Thoughts, stories and ideas.</p>
+            <h1>简单后台 By <a href="http://www.wzxdm.com" target="_blank">MicroEase</a></h1>
+            <p><script type="text/javascript" src="http://open.iciba.com/ds_open.php?id=60155&name=%E6%B5%8B%E8%AF%95&auth=DFAD184453DA27987F0389D1F35D06C1" charset="utf-8"></script></p>
             <p><a class="btn btn-primary btn-lg" href="post-add.php" role="button">写文章</a></p>
         </div>
         <div class="row">

@@ -43,3 +43,22 @@ function xiu_fetch_one($sql)
     $res = xiu_fetch_all($sql);
     return isset($res[0]) ? $res[0] : null;
 }
+
+/**
+ *增删改语句
+ *增删改类的操作
+ */
+function xiu_execute($sql)
+{
+    $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+    if (!$conn) {
+        exit('连接失败');
+    }
+    $query = mysqli_query($conn, $sql);
+    if (!$query) {
+        return false;
+    }
+    $affected_rows = mysqli_affected_rows($conn);
+    mysqli_close($conn);
+    return $affected_rows;
+}
