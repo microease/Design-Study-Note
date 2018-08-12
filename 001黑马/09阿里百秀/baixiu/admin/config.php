@@ -22,3 +22,5 @@ define('DB_PASS', 'CDykH2mfXsj3xsSK');
  * 数据库名称
  */
 define('DB_NAME', 'baixiu');
+
+define('ROOT_DIR',dirname(__FILE__));

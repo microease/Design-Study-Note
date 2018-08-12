@@ -39,7 +39,7 @@ function login()
 //        $GLOBALS['errorMessage'] = '密码错';
 //        return;
 //    }
-    $_SESSION['current_login_user_id'] = $user['id'];
+    $_SESSION['current_login_user'] = $user;
     header('Location: /admin/');
 }
 

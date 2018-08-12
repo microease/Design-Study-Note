@@ -1,0 +1,9 @@
+2018-08-12 17:53:47: -- 分析开始 On File Change Incremental
+2018-08-12 17:53:48: 变更：3， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 214
+2018-08-12 17:53:48: Left to Right: Copy File: 2 Delete File: 1 
+2018-08-12 17:53:48: == 同步开始由 On File Change Incremental
+2018-08-12 17:53:49: 删除文件夹 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/static/assets/vendors/charts'
+2018-08-12 17:53:49: 创建文件夹 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/static/assets/vendors/chart'
+2018-08-12 17:53:51: 新建复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/static/assets/vendors/chart/Chart.js' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/static/assets/vendors/chart/Chart.js' (403,941)
+2018-08-12 17:53:55: == 同步完成. 历时: 00:00:07, 速度: 136.8 KB/s, 完成: 3, 错误: 0
+2018-08-12 17:53:55: 

@@ -1,13 +1,12 @@
 <?php
 $currentPage = isset($currentPage) ? $currentPage : '';
-require_once '../../functions.php';
-$currentUser = get_current_user();
-
+require_once 'functions.php';
+$currentUser = xiu_get_current_user();
 ?>
 <div class="aside">
     <div class="profile">
-        <img class="avatar" src="../static/uploads/avatar.png">
-        <h3 class="name">浮生若梦</h3>
+        <img class="avatar" src="<?php echo $currentUser['avatar'];?>">
+        <h3 class="name"><?php echo $currentUser['nickname'];?></h3>
     </div>
     <ul class="nav">
         <li<?php echo $currentPage === 'index' ? ' class="active"' : ''?>>
