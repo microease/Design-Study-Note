@@ -5,12 +5,14 @@ xiu_get_current_user();
 function add_category()
 {
     if (empty($_POST['name']) || empty($_POST['slug'])) {
-        $GLOBALS['message'] = '请完整填写分类名和slug名哦！';
+        $GLOBALS['success'] = false;
+        $GLOBALS['message'] = '请完整填写分类名和slug名！';
         return;
     }
     $name = $_POST['name'];
     $slug = $_POST['slug'];
     $rows = xiu_execute("insert into categories values (null,'{$slug}','{$name}');");
+    $GLOBALS['success'] = $rows > 0;
     $GLOBALS['errorMessage'] = $rows <= 0 ? '添加失败' : '添加成功';
 }
 
@@ -53,6 +55,17 @@ $categories = xiu_fetch_all('select * from categories;');
         <!-- <div class="alert alert-danger">
           <strong>错误！</strong>发生XXX错误
         </div> -->
+        <?php if (isset($errorMessage)): ?>
+            <?php if ($success): ?>
+                <div class="alert alert-success">
+                    <strong>成功！</strong><?php echo $errorMessage; ?>
+                </div>
+            <?php else: ?>
+                <div class="alert alert-danger">
+                    <strong>失败！</strong><?php echo $errorMessage; ?>
+                </div>
+            <?php endif; ?>
+        <?php endif; ?>
         <div class="row">
             <div class="col-md-4">
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
