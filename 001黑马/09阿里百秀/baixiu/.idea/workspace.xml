@@ -14,9 +14,10 @@
       <file leaf-file-name="categories.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/categories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+            <state relative-caret-position="256">
+              <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
               <folding>
+                <element signature="e#760#767#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -26,7 +27,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="1150">
               <caret line="50" column="20" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="20" />
             </state>
           </provider>
@@ -41,6 +42,7 @@
       <find>../assets</find>
       <find>布头儿</find>
       <find>avatar.JPG</find>
+      <find>btn_delete</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -171,11 +173,12 @@
       <workItem from="1533828621249" duration="4495000" />
       <workItem from="1533899824442" duration="7001000" />
       <workItem from="1534023015515" duration="24996000" />
+      <workItem from="1534175660848" duration="2325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46216000" />
+    <option name="totallyTimeSpent" value="48541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="707" extended-state="0" />
@@ -210,6 +213,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2944">
+          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+          <folding>
+            <element signature="e#760#767#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2047">
@@ -416,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
+        <state relative-caret-position="1150">
           <caret line="50" column="20" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="20" />
         </state>
       </provider>
@@ -433,9 +454,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/categories.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+        <state relative-caret-position="256">
+          <caret line="131" column="32" selection-start-line="131" selection-start-column="32" selection-end-line="131" selection-end-column="32" />
           <folding>
+            <element signature="e#760#767#0#HTML" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>

@@ -87,7 +87,7 @@ $categories = xiu_fetch_all('select * from categories;');
             <div class="col-md-8">
                 <div class="page-action">
                     <!-- show when multiple checked -->
-                    <a class="btn btn-danger btn-sm" href="javascript:;" style="display: none">批量删除</a>
+                    <a class="btn btn-danger btn-sm btn_delete" href="javascript:;" style="display: none">批量删除</a>
                 </div>
                 <table class="table table-striped table-bordered table-hover">
                     <thead>
@@ -106,7 +106,8 @@ $categories = xiu_fetch_all('select * from categories;');
                             <td><?php echo $item['slug'] ?></td>
                             <td class="text-center">
                                 <a href="javascript:;" class="btn btn-info btn-xs">编辑</a>
-                                <a href="categories-delete.php?id=<?php echo $item['id'] ?>" class="btn btn-danger btn-xs">删除</a>
+                                <a href="categories-delete.php?id=<?php echo $item['id'] ?>"
+                                   class="btn btn-danger btn-xs">删除</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -123,11 +124,16 @@ $categories = xiu_fetch_all('select * from categories;');
 <script>
     $(function ($) {
         var $tbodyCheckboxs = $('tbody input');
-        $tbodyCheckboxs.on('change',function () {
-            $tbodyCheckboxs.each(function (i,item) {
+        var $btnDelete = $('.btn_delete');
+        $tbodyCheckboxs.on('change', function () {
+            var flag = false;
+            $tbodyCheckboxs.each(function (i, item) {
                 //attr 获取的元素属性，prop获取的是元素对应的dom对象的属性
-                $(item).prop.('checked')
-            })
+                if ($(item).prop('checked')) {
+                    flag = true
+                }
+            });
+            flag ? $btnDelete.fadeIn() : $btnDelete.fadeOut()
         })
     })
 </script>
