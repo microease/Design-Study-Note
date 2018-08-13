@@ -106,7 +106,7 @@ $categories = xiu_fetch_all('select * from categories;');
                             <td><?php echo $item['slug'] ?></td>
                             <td class="text-center">
                                 <a href="javascript:;" class="btn btn-info btn-xs">编辑</a>
-                                <a href="javascript:;" class="btn btn-danger btn-xs">删除</a>
+                                <a href="categories-delete.php?id=<?php echo $item['id'] ?>" class="btn btn-danger btn-xs">删除</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -118,9 +118,19 @@ $categories = xiu_fetch_all('select * from categories;');
 </div>
 <?php $currentPage = 'categories'; ?>
 <?php include 'inc/sidebar.php' ?>
-
 <script src="../static/assets/vendors/jquery/jquery.js"></script>
 <script src="../static/assets/vendors/bootstrap/js/bootstrap.js"></script>
+<script>
+    $(function ($) {
+        var $tbodyCheckboxs = $('tbody input');
+        $tbodyCheckboxs.on('change',function () {
+            $tbodyCheckboxs.each(function (i,item) {
+                //attr 获取的元素属性，prop获取的是元素对应的dom对象的属性
+                $(item).prop.('checked')
+            })
+        })
+    })
+</script>
 <script>NProgress.done()</script>
 </body>
 </html>
