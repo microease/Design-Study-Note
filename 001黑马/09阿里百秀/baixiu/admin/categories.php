@@ -125,16 +125,23 @@ $categories = xiu_fetch_all('select * from categories;');
     $(function ($) {
         var $tbodyCheckboxs = $('tbody input');
         var $btnDelete = $('.btn_delete');
-        $tbodyCheckboxs.on('change', function () {
-            var flag = false;
-            $tbodyCheckboxs.each(function (i, item) {
-                //attr 获取的元素属性，prop获取的是元素对应的dom对象的属性
-                if ($(item).prop('checked')) {
-                    flag = true
-                }
-            });
-            flag ? $btnDelete.fadeIn() : $btnDelete.fadeOut()
+        var allCheckeds = [];
+        $tbodyCheckboxs.on('change',function () {
+            if($(this).prop('checked')){
+                allCheckeds.push();
+            }
         })
+        //旧方法
+        // $tbodyCheckboxs.on('change', function () {
+        //     var flag = false;
+        //     $tbodyCheckboxs.each(function (i, item) {
+        //         //attr 获取的元素属性，prop获取的是元素对应的dom对象的属性
+        //         if ($(item).prop('checked')) {
+        //             flag = true
+        //         }
+        //     });
+        //     flag ? $btnDelete.fadeIn() : $btnDelete.fadeOut()
+        // })
     })
 </script>
 <script>NProgress.done()</script>
