@@ -176,6 +176,11 @@ $categories = xiu_fetch_all('select * from categories;');
             allCheckeds.length ? $btnDelete.fadeIn() : $btnDelete.fadeOut()
             $btnDelete.prop('search', '?id=' + allCheckeds)
         })
+        $('thead input').on('change',function () {
+            var checked = $(this).prop('checked')
+            // $tbodyCheckboxs.prop('checked',checked).change()
+            $tbodyCheckboxs.prop('checked',checked).trigger('change')
+        })
         //
         //旧方法
         // $tbodyCheckboxs.on('change', function () {
