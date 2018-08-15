@@ -1,0 +1,10 @@
+2018-08-14 21:35:59: On File Change Monitoring started on file:///Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu
+2018-08-14 21:36:11: File Monitoring not available on: sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com
+2018-08-14 21:36:11: Remote File System with No monitoring, disconnect
+2018-08-14 21:36:16: -- 分析开始 On File Change First Full Analyze Upon File Monitoring Start
+2018-08-14 21:37:08: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 215
+2018-08-14 21:37:08: Left to Right: Copy File: 1 
+2018-08-14 21:37:08: == 同步开始由 On File Change First Full Analyze Upon File Monitoring Start
+2018-08-14 21:37:14: 覆盖复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/categories.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/categories.php' (6,261)
+2018-08-14 21:37:27: == 同步完成. 历时: 00:00:19, 速度: 1.0 KB/s, 完成: 1, 错误: 0
+2018-08-14 21:37:27: 

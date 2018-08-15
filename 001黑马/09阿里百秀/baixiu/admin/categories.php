@@ -87,7 +87,7 @@ $categories = xiu_fetch_all('select * from categories;');
             <div class="col-md-8">
                 <div class="page-action">
                     <!-- show when multiple checked -->
-                    <a class="btn btn-danger btn-sm btn_delete" href="javascript:;" style="display: none">批量删除</a>
+                    <a class="btn btn-danger btn-sm btn_delete" href="/admin/categories-delete.php" style="display: none">批量删除</a>
                 </div>
                 <table class="table table-striped table-bordered table-hover">
                     <thead>
@@ -101,12 +101,12 @@ $categories = xiu_fetch_all('select * from categories;');
                     <tbody>
                     <?php foreach ($categories as $item): ?>
                         <tr>
-                            <td class="text-center"><input type="checkbox"></td>
+                            <td class="text-center"><input type="checkbox" data-id="<?php echo $item['id'] ?>"></td>
                             <td><?php echo $item['name'] ?></td>
                             <td><?php echo $item['slug'] ?></td>
                             <td class="text-center">
-                                <a href="javascript:;" class="btn btn-info btn-xs">编辑</a>
-                                <a href="categories-delete.php?id=<?php echo $item['id'] ?>"
+                                <a href="/admin/categories.php?id=" class="btn btn-info btn-xs">编辑</a>
+                                <a href="/admin/categories-delete.php?id=<?php echo $item['id'] ?>"
                                    class="btn btn-danger btn-xs">删除</a>
                             </td>
                         </tr>
@@ -127,10 +127,16 @@ $categories = xiu_fetch_all('select * from categories;');
         var $btnDelete = $('.btn_delete');
         var allCheckeds = [];
         $tbodyCheckboxs.on('change',function () {
+            var id = $(this).data('id');
             if($(this).prop('checked')){
-                allCheckeds.push();
+                allCheckeds.push(id)
+            }else{
+                allCheckeds.splice(allCheckeds.indexOf(id))
             }
+            allCheckeds.length ? $btnDelete.fadeIn() : $btnDelete.fadeOut()
+            $btnDelete.prop('search','?id='+allCheckeds)
         })
+            //
         //旧方法
         // $tbodyCheckboxs.on('change', function () {
         //     var flag = false;
