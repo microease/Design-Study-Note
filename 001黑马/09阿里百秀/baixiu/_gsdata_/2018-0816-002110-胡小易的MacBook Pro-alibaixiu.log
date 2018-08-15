@@ -1,0 +1,8 @@
+2018-08-16 00:21:14: -- 分析开始 On File Change Incremental
+2018-08-16 00:21:15: 变更：2， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 216
+2018-08-16 00:21:15: Left to Right: Copy File: 2 
+2018-08-16 00:21:15: == 同步开始由 On File Change Incremental
+2018-08-16 00:21:18: 覆盖复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/post-add.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/post-add.php' (3,309)
+2018-08-16 00:21:19: 覆盖复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/profile.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/profile.php' (3,275)
+2018-08-16 00:21:24: == 同步完成. 历时: 00:00:09, 速度: 2.8 KB/s, 完成: 2, 错误: 0
+2018-08-16 00:21:24: 

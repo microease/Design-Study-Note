@@ -1,0 +1,9 @@
+2018-08-16 00:20:56: -- 分析开始 On File Change Incremental
+2018-08-16 00:20:57: 变更：3， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 216
+2018-08-16 00:20:57: Left to Right: Copy File: 2 Delete File: 1 
+2018-08-16 00:20:57: == 同步开始由 On File Change Incremental
+2018-08-16 00:20:58: 删除文件 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/logout.php'
+2018-08-16 00:21:00: 覆盖复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/nav-menus.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/nav-menus.php' (3,973)
+2018-08-16 00:21:03: 覆盖复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/password-reset.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/password-reset.php' (2,270)
+2018-08-16 00:21:09: == 同步完成. 历时: 00:00:12, 速度: 3.0 KB/s, 完成: 3, 错误: 0
+2018-08-16 00:21:09: 
