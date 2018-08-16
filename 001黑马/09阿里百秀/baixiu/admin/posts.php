@@ -1,7 +1,28 @@
 <?php
 require_once 'functions.php';
 xiu_get_current_user();
-$posts = xiu_fetch_all('select * from posts;');
+$page = empty($_GET['page']) ? 1 : (int)$_GET['page'];
+$size = 20;
+$offset = ($page - 1) * $size;
+$posts = xiu_fetch_all('select 
+post.id,
+post.title,
+user.nickname as user_name,
+categories.name as category_name,
+post.created,
+post.status 
+from posts 
+inner join categories on post.category_id = categories.id 
+inner join users on posts.user_id = user_id 
+order by posts.created desc 
+limit {$offset},{$size};');
+
+$visiables = 5;
+$region = ($visiables - 1) / 2;
+$begin = $page - $region;
+$end = $page + $region;
+
+
 function convert_status($status)
 {
     $dict = array(
@@ -22,6 +43,7 @@ function get_category_name($category_id)
 {
     return xiu_fetch_one("select name from categories where id = {$category_id}")['name'];
 }
+
 function get_user_name($user_id)
 {
     return xiu_fetch_one("select nickname from users where id = {$user_id}")['nickname'];
@@ -70,9 +92,9 @@ function get_user_name($user_id)
             </form>
             <ul class="pagination pagination-sm pull-right">
                 <li><a href="#">上一页</a></li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
+                <?php for ($i = $begin; $i <= $end; $i++): ?>
+                    <li><a href="#"><?php echo $i; ?></a></li>
+                <?php endfor; ?>
                 <li><a href="#">下一页</a></li>
             </ul>
         </div>
@@ -89,7 +111,7 @@ function get_user_name($user_id)
             </tr>
             </thead>
             <tbody>
-            <? foreach ($posts as $item): ?>
+            <?php foreach ($posts as $item): ?>
                 <tr>
                     <td class="text-center"><input type="checkbox"></td>
                     <td><?php echo $item['title']; ?></td>
