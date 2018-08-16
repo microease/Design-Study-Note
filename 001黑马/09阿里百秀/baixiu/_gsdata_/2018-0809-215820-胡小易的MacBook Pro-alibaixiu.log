@@ -1,8 +1,0 @@
-2018-08-09 21:58:25: -- 分析开始 On File Change Incremental
-2018-08-09 21:58:49: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 98
-2018-08-09 21:58:49: Left to Right: Copy File: 1 
-2018-08-09 21:58:49: == 同步开始由 On File Change Incremental
-2018-08-09 21:58:53: /Applications/MAMP/htdocs/baixiu/admin/inc/sidebar.php: Source file has changed between Analyze and Sync from '[file] size=1,504 accu-time=2018-08-09 21:58:18 attr=644 cktype=0' to 'size=1,504 time=2018-08-09 21:58:36', noted in source file state
-2018-08-09 21:58:53: 覆盖复制 '/Applications/MAMP/htdocs/baixiu/admin/inc/sidebar.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/inc/sidebar.php' (1,504)
-2018-08-09 21:58:57: == 同步完成. 历时: 00:00:08, 速度: 376.0/s, 完成: 1, 错误: 0
-2018-08-09 21:58:57: 

@@ -4,26 +4,33 @@ xiu_get_current_user();
 $page = empty($_GET['page']) ? 1 : (int)$_GET['page'];
 $size = 20;
 $offset = ($page - 1) * $size;
-$posts = xiu_fetch_one("select
-post.id,
-post.title,
-user.nickname as user_name,
-categories.name as category_name,
-post.created,
-post.status
+$posts = xiu_fetch_all("select
+  posts.id,
+  posts.title,
+  users.nickname as user_name,
+  categories.name as category_name,
+  posts.created,
+  posts.status
 from posts
-inner join categories on post.category_id = categories.id
-inner join users on posts.user_id = user_id
+inner join categories on posts.category_id = categories.id
+inner join users on posts.user_id = users.id
 order by posts.created desc
 limit {$offset},{$size};");
-
-
 //$posts = xiu_fetch_all("select * from posts");
+$total_count = (int)xiu_fetch_one('select count(1) as num from posts;')['num'];
+$total_pages = (int)ceil($total_count / $size);
 
 $visiables = 5;
 $region = ($visiables - 1) / 2;
 $begin = $page - $region;
-$end = $page + $region;
+$end = $begin + $visiables;
+if ($begin < 1) {
+    $begin = 1;
+    $end = $begin + $visiables;
+}
+if ($end > $total_pages + 1) {
+    $end = $total_pages + 1;
+}
 
 
 function convert_status($status)
@@ -94,13 +101,13 @@ function get_user_name($user_id)
                 <button class="btn btn-default btn-sm">筛选</button>
             </form>
             <ul class="pagination pagination-sm pull-right">
-                <li><a href="#">上一页</a></li>
-                <?php for ($i = $begin; $i <= $end; $i++): ?>
+                <li><a href="?page=<?php echo $begin = 1 ? 1 : $begin - 1; ?>">上一页</a></li>
+                <?php for ($i = $begin; $i < $end; $i++): ?>
                     <li<?php echo $i === $page ? ' class="active"' : '' ?>>
                         <a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
                     </li>
                 <?php endfor; ?>
-                <li><a href="#">下一页</a></li>
+                <li><a href="?page=<?php echo $begin + 1; ?>">下一页</a></li>
             </ul>
         </div>
         <table class="table table-striped table-bordered table-hover">
@@ -120,8 +127,8 @@ function get_user_name($user_id)
                 <tr>
                     <td class="text-center"><input type="checkbox"></td>
                     <td><?php echo $item['title']; ?></td>
-                    <td><?php echo get_user_name($item['user_id']); ?></td>
-                    <td><?php echo get_category_name($item['category_id']); ?></td>
+                    <td><?php echo $item['user_name']; ?></td>
+                    <td><?php echo $item['category_name']; ?></td>
                     <td class="text-center"><?php echo convert_date($item['created']); ?></td>
                     <td class="text-center"><?php echo convert_status($item['status']); ?></td>
                     <td class="text-center">
@@ -129,7 +136,7 @@ function get_user_name($user_id)
                         <a href="javascript:;" class="btn btn-danger btn-xs">删除</a>
                     </td>
                 </tr>
-            <?php endforeach ?>
+            <?php endforeach; ?>
             </tbody>
         </table>
     </div>
