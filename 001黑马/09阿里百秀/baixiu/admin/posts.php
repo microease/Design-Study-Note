@@ -4,18 +4,21 @@ xiu_get_current_user();
 $page = empty($_GET['page']) ? 1 : (int)$_GET['page'];
 $size = 20;
 $offset = ($page - 1) * $size;
-$posts = xiu_fetch_all('select 
+$posts = xiu_fetch_one("select
 post.id,
 post.title,
 user.nickname as user_name,
 categories.name as category_name,
 post.created,
-post.status 
-from posts 
-inner join categories on post.category_id = categories.id 
-inner join users on posts.user_id = user_id 
-order by posts.created desc 
-limit {$offset},{$size};');
+post.status
+from posts
+inner join categories on post.category_id = categories.id
+inner join users on posts.user_id = user_id
+order by posts.created desc
+limit {$offset},{$size};");
+
+
+//$posts = xiu_fetch_all("select * from posts");
 
 $visiables = 5;
 $region = ($visiables - 1) / 2;
@@ -93,7 +96,9 @@ function get_user_name($user_id)
             <ul class="pagination pagination-sm pull-right">
                 <li><a href="#">上一页</a></li>
                 <?php for ($i = $begin; $i <= $end; $i++): ?>
-                    <li><a href="#"><?php echo $i; ?></a></li>
+                    <li<?php echo $i === $page ? ' class="active"' : '' ?>>
+                        <a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
+                    </li>
                 <?php endfor; ?>
                 <li><a href="#">下一页</a></li>
             </ul>
