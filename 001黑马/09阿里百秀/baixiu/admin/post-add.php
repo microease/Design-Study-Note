@@ -87,7 +87,8 @@ xiu_get_current_user();
 <script src="../static/assets/vendors/ueditor/ueditor.config.js"></script>
 <script src="../static/assets/vendors/ueditor/ueditor.all.js"></script>
 <script>
-    UE.getEditor('content');
+    UE.getEditor('content')
+    ;
 </script>
 <script>NProgress.done()</script>
 </body>
