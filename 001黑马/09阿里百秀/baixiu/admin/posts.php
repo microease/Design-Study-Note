@@ -1,9 +1,18 @@
 <?php
 require_once 'functions.php';
 xiu_get_current_user();
-$page = empty($_GET['page']) ? 1 : (int)$_GET['page'];
+//处理分页参数，一页20，page传过来多少页
 $size = 20;
+$page = empty($_GET['page']) ? 1 : (int)$_GET['page'];
+//计算越过多少条
 $offset = ($page - 1) * $size;
+//获取全部数据
+$categories = xiu_fetch_all('select * from categories;');
+
+$where = '1=1';
+if (isset($_GET['category']) && $_GET['category'] !== 'all') {
+    $where .= ' and posts.category_id=' . $_GET['category'];
+}
 $posts = xiu_fetch_all("select
   posts.id,
   posts.title,
@@ -12,24 +21,49 @@ $posts = xiu_fetch_all("select
   posts.created,
   posts.status
 from posts
-inner join categories on posts.category_id = categories.id
+inner join categories on posts.category_id = categories.id 
 inner join users on posts.user_id = users.id
+where {$where}
 order by posts.created desc
 limit {$offset},{$size};");
 //$posts = xiu_fetch_all("select * from posts");
-$total_count = (int)xiu_fetch_one('select count(1) as num from posts;')['num'];
+//处理分页页码，获取最大值，天花板
+$total_count = (int)xiu_fetch_one('select count(1) as count from posts
+inner join categories on posts.category_id = categories.id
+inner join users on posts.user_id = users.id;')['count'];
+
+
 $total_pages = (int)ceil($total_count / $size);
 
 $visiables = 5;
-$region = ($visiables - 1) / 2;
-$begin = $page - $region;
-$end = $begin + $visiables;
-if ($begin < 1) {
-    $begin = 1;
-    $end = $begin + $visiables;
+//最大页码
+$begin = $page - ($visiables - 1) / 2;
+$end = $begin + $visiables - 1;
+//
+$begin = $begin < 1 ? 1 : $begin;
+$end = $begin + $visiables - 1;
+$end = $end > $total_pages ? $total_pages : $end;
+$begin = $end - $visiables + 1; // 因为 52 可能改变了 end，也就有可能打破 begin 和 end 的关系
+$begin = $begin < 1 ? 1 : $begin; // 确保不能小于 1
+
+/*
+  1. 当前页码显示高亮
+  2. 左侧和右侧各有2个页码
+  3. 开始页码不能小于1
+  4. 结束页码不能大于最大页数
+  5. 当前页码不为1时显示上一页
+  6. 当前页码不为最大值是显示下一页
+  7. 当开始页码不等于1时显示省略号
+  8. 当结束页码不等于最大时显示省略号
+*/
+
+
+//超出分页跳转
+if ($page < 1) {
+    header('Location:/admin/posts.php?page=1');
 }
-if ($end > $total_pages + 1) {
-    $end = $total_pages + 1;
+if ($page > $total_pages) {
+    header('Location:/admin/posts.php?page=' . $total_pages);
 }
 
 
@@ -88,15 +122,18 @@ function get_user_name($user_id)
         <div class="page-action">
             <!-- show when multiple checked -->
             <a class="btn btn-danger btn-sm" href="javascript:;" style="display: none">批量删除</a>
-            <form class="form-inline">
-                <select name="" class="form-control input-sm">
-                    <option value="">所有分类</option>
-                    <option value="">未分类</option>
+            <form class="form-inline" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                <select name="category" class="form-control input-sm">
+                    <option value="all">所有分类</option>
+                    <?php foreach ($categories as $item): ?>
+                        <option value="<?php echo $item['id']; ?>"><?php echo $item['name']; ?></option>
+                    <?php endforeach; ?>
                 </select>
                 <select name="" class="form-control input-sm">
                     <option value="">所有状态</option>
-                    <option value="">草稿</option>
-                    <option value="">已发布</option>
+                    <?php foreach ($posts as $item): ?>
+                        <option value=""><?php echo $item['status']; ?></option>
+                    <?php endforeach; ?>
                 </select>
                 <button class="btn btn-default btn-sm">筛选</button>
             </form>
