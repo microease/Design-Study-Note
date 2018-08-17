@@ -1,0 +1,8 @@
+2018-08-17 21:26:41: -- 分析开始 On File Change Incremental
+2018-08-17 21:27:38: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 217
+2018-08-17 21:27:38: Left to Right: Copy File: 1 
+2018-08-17 21:27:38: == 同步开始由 On File Change Incremental
+2018-08-17 21:27:42: /Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/post-delete.php: Source file has changed between Analyze and Sync from '[file] size=442 accu-time=2018-08-17 21:26:39 attr=644 cktype=0' to 'size=437 time=2018-08-17 21:26:44', noted in source file state
+2018-08-17 21:27:42: 新建复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/post-delete.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/post-delete.php' (442)
+2018-08-17 21:27:51: == 同步完成. 历时: 00:00:13, 速度: 109.0/s, 完成: 1, 错误: 0
+2018-08-17 21:27:51: 

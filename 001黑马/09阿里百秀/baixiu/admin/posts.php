@@ -10,9 +10,18 @@ $offset = ($page - 1) * $size;
 $categories = xiu_fetch_all('select * from categories;');
 
 $where = '1=1';
+$search = '';
+
 if (isset($_GET['category']) && $_GET['category'] !== 'all') {
     $where .= ' and posts.category_id=' . $_GET['category'];
+    $search .= '&category='. $_GET['category'];
 }
+
+if (isset($_GET['status']) && $_GET['status'] !== 'all') {
+    $where .= " and posts.status = '{$_GET['status']}'";
+    $search .= '&status='. $_GET['status'];
+}
+
 $posts = xiu_fetch_all("select
   posts.id,
   posts.title,
@@ -126,14 +135,22 @@ function get_user_name($user_id)
                 <select name="category" class="form-control input-sm">
                     <option value="all">所有分类</option>
                     <?php foreach ($categories as $item): ?>
-                        <option value="<?php echo $item['id']; ?>"><?php echo $item['name']; ?></option>
+                        <option value="<?php echo $item['id']; ?>"<?php echo isset($_GET['category']) && $_GET['category'] == $item['id'] ? ' selected' : '' ?>><?php echo $item['name']; ?></option>
                     <?php endforeach; ?>
                 </select>
-                <select name="" class="form-control input-sm">
-                    <option value="">所有状态</option>
-                    <?php foreach ($posts as $item): ?>
-                        <option value=""><?php echo $item['status']; ?></option>
-                    <?php endforeach; ?>
+                <select name="status" class="form-control input-sm">
+                    <option value="all"<?php echo isset($_GET['status']) && $_GET['status'] == 'all' ? ' selected' : '' ?>>
+                        所有状态
+                    </option>
+                    <option value="drafted"<?php echo isset($_GET['status']) && $_GET['status'] == 'drafted' ? ' selected' : '' ?>>
+                        草稿
+                    </option>
+                    <option value="published"<?php echo isset($_GET['status']) && $_GET['status'] == 'published' ? ' selected' : '' ?>>
+                        已发布
+                    </option>
+                    <option value="trashed"<?php echo isset($_GET['status']) && $_GET['status'] == 'trashed' ? ' selected' : '' ?>>
+                        回收站
+                    </option>
                 </select>
                 <button class="btn btn-default btn-sm">筛选</button>
             </form>
@@ -141,7 +158,7 @@ function get_user_name($user_id)
                 <li><a href="?page=<?php echo $begin = 1 ? 1 : $begin - 1; ?>">上一页</a></li>
                 <?php for ($i = $begin; $i < $end; $i++): ?>
                     <li<?php echo $i === $page ? ' class="active"' : '' ?>>
-                        <a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a>
+                        <a href="?page=<?php echo $i.$search; ?>"><?php echo $i; ?></a>
                     </li>
                 <?php endfor; ?>
                 <li><a href="?page=<?php echo $begin + 1; ?>">下一页</a></li>
@@ -170,7 +187,8 @@ function get_user_name($user_id)
                     <td class="text-center"><?php echo convert_status($item['status']); ?></td>
                     <td class="text-center">
                         <a href="javascript:;" class="btn btn-default btn-xs">编辑</a>
-                        <a href="javascript:;" class="btn btn-danger btn-xs">删除</a>
+                        <a href="/admin/post-delete.php?id=<?php echo $item['id']; ?>"
+                           class="btn btn-danger btn-xs">删除</a>
                     </td>
                 </tr>
             <?php endforeach; ?>
