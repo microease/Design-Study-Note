@@ -16,4 +16,4 @@ $rows = xiu_execute('delete from posts where id in (' . $id . ');');
 //if ($rows > 0) {
 //    $GLOBALS['errorMessage'] = '删除成功';
 //}
-header('Location: /admin/posts.php');
+header('Location: ' . $_SERVER['HTTP_REFERER']);

@@ -1,8 +1,0 @@
-2018-08-10 22:15:21: -- 分析开始 On File Change Incremental
-2018-08-10 22:15:22: 变更：1， 冲突：0， 复制时间：0， 复制状态：0， 错误： 0, All: 206
-2018-08-10 22:15:22: Left to Right: Copy File: 1 
-2018-08-10 22:15:22: == 同步开始由 On File Change Incremental
-2018-08-10 22:15:26: /Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/login.php: Source file has changed between Analyze and Sync from '[file] size=2,199 accu-time=2018-08-10 22:15:18 attr=755 cktype=0' to 'size=2,198 time=2018-08-10 22:15:21', noted in source file state
-2018-08-10 22:15:26: 覆盖复制 '/Users/huxiaoyi/GitHub/Web-Study-Note/001黑马/09阿里百秀/baixiu/admin/login.php' -> 'sftp://45.79.108.154/www/wwwroot/baixiu.wzxdm.com/admin/login.php' (2,199)
-2018-08-10 22:15:30: == 同步完成. 历时: 00:00:08, 速度: 549.0/s, 完成: 1, 错误: 0
-2018-08-10 22:15:30: 
