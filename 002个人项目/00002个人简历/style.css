@@ -1,0 +1,45 @@
+/* 
+头部
+*/
+.school-logo{
+    max-width: 300px;
+    width: auto;
+    display: inline;
+    line-height: 100px;
+}
+.avatar{
+    max-width: 100px;
+    max-height:100px;
+}
+.head{
+    position: relative;
+}
+.head-school{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.head-avatar{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+/* 
+媒体查询判断
+*/
+@media (max-width: 890px){
+    .school-logo{
+        display: none;
+    }
+}
+@media (max-width: 475px){
+    .head-avatar{
+        display: none;
+    }
+}
+hr{
+    border:1px solid red;
+}
+p{
+    text-indent:2em;
+}

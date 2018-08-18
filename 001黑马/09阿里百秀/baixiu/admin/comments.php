@@ -107,6 +107,12 @@ xiu_get_current_user();
 
   <script src="../static/assets/vendors/jquery/jquery.js"></script>
   <script src="../static/assets/vendors/bootstrap/js/bootstrap.js"></script>
+  <script src="/static/assets/vendors/jsrender/jsrender.js"></script>
+  <script>
+      $.getJSON('/admin/api/comments.php',{},function (res) {
+          console.log(res)
+      })
+  </script>
   <script>NProgress.done()</script>
 </body>
 </html>
