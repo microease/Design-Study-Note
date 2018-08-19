@@ -1,0 +1,6 @@
+.section:first-child{
+    background-color: red;
+}
+.section:last-child{
+    background-color: pink;
+}
