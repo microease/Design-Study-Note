@@ -37,9 +37,22 @@
         display: none;
     }
 }
-hr{
+
+.red{
     border:1px solid red;
 }
 p{
     text-indent:2em;
+}
+body{
+    font-size: 12px;
+}
+.time{
+    float: right;
+}
+@media (max-width: 480px){
+    .time{
+        float: left;
+        position: absolute;
+    }
 }
