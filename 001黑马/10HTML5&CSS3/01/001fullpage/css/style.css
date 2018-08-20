@@ -13,6 +13,7 @@
     right: 60px;
     bottom: 80px;
     z-index: 1001;
+    animation: fly01 1s linear infinite alternate;
 }
 
 .content {
@@ -37,9 +38,24 @@
     position: absolute;
     left: 23px;
     top: 150px;
+    animation: fly01 1s linear infinite alternate;
 }
+
 .screen01 .fly {
     position: absolute;
     right: -50px;
     top: 20px;
+    animation: fly01 1s linear infinite alternate;
+}
+
+@keyframes fly01 {
+    from {
+        transform: translateY(-30px);
+    }
+    to {
+        transform: translateY(30px);
+    }
+}
+.screen02{
+    background: url("../images/02-bg.png") no-repeat center bottom;
 }
