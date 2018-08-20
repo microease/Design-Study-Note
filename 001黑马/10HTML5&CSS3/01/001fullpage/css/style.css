@@ -1,6 +1,45 @@
-.section:first-child{
-    background-color: red;
+.go {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1001;
 }
-.section:last-child{
-    background-color: pink;
+
+.more {
+    position: fixed;
+    right: 60px;
+    bottom: 80px;
+    z-index: 1001;
+}
+
+.content {
+    width: 900px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+
+.screen01 {
+    background: url("../images/01-bg.png") no-repeat center bottom;
+}
+
+.screen01 .goods {
+    text-align: center;
+    margin-top: 230px;
+}
+
+.screen01 .sofa {
+    position: absolute;
+    left: 23px;
+    top: 150px;
+}
+.screen01 .fly {
+    position: absolute;
+    right: -50px;
+    top: 20px;
 }
