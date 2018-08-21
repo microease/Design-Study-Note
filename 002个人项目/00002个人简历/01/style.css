@@ -31,10 +31,16 @@
     .school-logo{
         display: none;
     }
+    .head-text{
+        text-align: left;
+    }
 }
 @media (max-width: 475px){
     .head-avatar{
         display: none;
+    }
+    .head-text{
+        text-align: center;
     }
 }
 

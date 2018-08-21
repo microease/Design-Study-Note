@@ -6,9 +6,9 @@ $(function () {
         afterLoad: function (link, index) {
             $('.section').eq(index - 1).addClass('now');
         },
-        afterRender:function () {
-            $('.more').on('click',function () {
-                
+        afterRender: function () {
+            $('.more').on('click', function () {
+                $.fn.fullpage.moveSectionDown();
             })
         }
     });
