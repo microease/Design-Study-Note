@@ -1,0 +1,151 @@
+.go {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1001;
+}
+
+.more {
+    position: fixed;
+    right: 60px;
+    bottom: 80px;
+    z-index: 1001;
+    animation: fly01 1s linear infinite alternate;
+}
+
+.content {
+    width: 900px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+
+.screen01 {
+    background: url("../images/01-bg.png") no-repeat center bottom;
+}
+
+.screen01 .goods {
+    text-align: center;
+    margin-top: 230px;
+}
+
+.screen01 .sofa {
+    position: absolute;
+    left: 23px;
+    top: 150px;
+    animation: fly01 1s linear infinite alternate;
+}
+
+.screen01 .fly {
+    position: absolute;
+    right: -50px;
+    top: 20px;
+    animation: fly01 1s linear infinite alternate;
+}
+
+@keyframes fly01 {
+    from {
+        transform: translateY(-30px);
+    }
+    to {
+        transform: translateY(30px);
+    }
+}
+
+.screen02 {
+    background: url("../images/02-bg.png") no-repeat center bottom;
+}
+
+.screen02 .goods {
+    position: absolute;
+    left: 50%;
+    margin-left: -220px;
+    bottom: 200px;
+    transform-origin: right bottom;
+    transform: scale(0);
+}
+
+.screen02 .sofa {
+    transform: scale(0.5);
+    position: absolute;
+    left: 292px;
+    top: 140px;
+}
+
+.screen02 .input {
+    position: absolute;
+    right: 171px;
+    top: 130px;
+    /*transform: scale(0.7);*/
+    /*transform: translate(-2220px, 110px);*/
+    transform-origin: right top;
+    /*animation: input02 3s linear;*/
+    opacity: 0;
+}
+
+.screen02 .input .search {
+}
+
+.screen02 .input .key {
+    position: absolute;
+    left: 100px;
+    top: 4px;
+}
+
+.screen02 .text {
+    text-align: center;
+}
+
+.screen02 .text .text01 {
+}
+
+.screen02 .text .text02 {
+    position: absolute;
+    opacity: 0;
+}
+
+.screen02.now .text .text01 {
+    position: absolute;
+    opacity: 0;
+}
+
+.screen02.now .text .text02 {
+    position: static;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.screen02.now .input {
+    animation: input02 3s linear forwards;
+}
+
+.screen02.now .input .key {
+    opacity: 1;
+    transition: all 1s linear 1s;
+}
+.screen02.now .goods{
+    transform: none;
+    transition: all 1s linear 2s;
+}
+
+@keyframes input02 {
+    0% {
+        opacity: 1;
+        transform: translate(2000px, 130px);
+    }
+    33.3% {
+        transform: translate(-180px, 130px);
+    }
+    67% {
+        transform: translate(-180px, 130px);
+    }
+    100% {
+        transform: scale(0.7);
+        opacity: 1;
+    }
+}
