@@ -6,6 +6,11 @@ $(function () {
         afterLoad: function (link, index) {
             $('.section').eq(index - 1).addClass('now');
         },
+        onLeave: function (index, nextIndex, dirtction) {
+            if (index == 2 && nextIndex == 3) {
+                $('.section').eq(index-1).addClass('leaved');
+            }
+        },
         afterRender: function () {
             $('.more').on('click', function () {
                 $.fn.fullpage.moveSectionDown();

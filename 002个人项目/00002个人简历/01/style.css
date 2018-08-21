@@ -1,4 +1,4 @@
-/* 
+ /*
 头部
 */
 .school-logo{
@@ -27,7 +27,7 @@
 /* 
 媒体查询判断
 */
-@media (max-width: 890px){
+@media (max-width: 970px){
     .school-logo{
         display: none;
     }

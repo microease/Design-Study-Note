@@ -149,3 +149,6 @@
         opacity: 1;
     }
 }
+.screen03{
+    background: url("../images/03-bg.png") no-repeat center bottom;
+}
