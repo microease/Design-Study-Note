@@ -75,6 +75,8 @@
     position: absolute;
     left: 292px;
     top: 140px;
+    opacity: 0;
+    z-index: 1001;
 }
 
 .screen02 .input {
@@ -147,6 +149,19 @@
     100% {
         transform: scale(0.7);
         opacity: 1;
+    }
+}
+
+.screen02.leaved .sofa{
+    animation: sofa02 1s linear;
+}
+@keyframes sofa02 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(700px);
     }
 }
 .screen03{
