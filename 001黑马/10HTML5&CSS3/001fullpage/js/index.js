@@ -9,12 +9,15 @@ $(function () {
         onLeave: function (index, nextIndex, dirtction) {
             if (index == 2 && nextIndex == 3) {
                 $('.section').eq(index-1).addClass('leaved');
+            }else if(index == 3 && nextIndex == 4){
+                $('.section').eq(index-1).addClass('leaved');
             }
         },
         afterRender: function () {
             $('.more').on('click', function () {
                 $.fn.fullpage.moveSectionDown();
-            })
-        }
+            });
+        },
+        scrollingSpeed:1000
     });
 });
