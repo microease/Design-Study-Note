@@ -228,14 +228,16 @@
 .screen03.leaved .sofa {
     animation: sofa03 1s linear;
 }
+
 @keyframes sofa03 {
-    from{
+    from {
 
     }
-    to{
-        transform: translate(190px,666px) rotate(45deg);
+    to {
+        transform: translate(190px, 666px) rotate(45deg);
     }
 }
+
 .screen04 {
     background: url("../images/04-bg.png") no-repeat center bottom;
 }
@@ -264,25 +266,55 @@
     position: absolute;
     opacity: 0;
 }
-.screen04 .cart{
+.screen04 .text.show img:first-child{
+    position: absolute;
+    opacity: 0;
+}
+.screen04 .text.show img:last-child{
+    position: static;
+    opacity: 1;
+    transition: all 1s linear;
+}
+.screen04 .cart {
     text-align: center;
-    margin-top:60px;
+    margin-top: 60px;
     position: relative;
     z-index: 1002;
 }
-.screen04 .sofa{
+
+.screen04 .sofa {
     position: absolute;
-    top:180px;
+    top: 180px;
     left: 400px;
     transform: rotate(45deg);
     opacity: 0;
 }
-.screen04.now .sofa{
+
+.screen04 .address {
+    position: absolute;
+    width: 283px;
+    height: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 150px;
+    display: none;
+}
+
+.screen04 .address img:last-child {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.screen04.now .sofa {
     opacity: 1;
     transition: transform 5s;
     transform: translateX(1000px);
 }
-.screen04.now .cart{
+
+.screen04.now .cart {
     transition: all 5s;
     transform: translateX(1000px);
 }

@@ -8,16 +8,20 @@ $(function () {
         },
         onLeave: function (index, nextIndex, dirtction) {
             if (index == 2 && nextIndex == 3) {
-                $('.section').eq(index-1).addClass('leaved');
-            }else if(index == 3 && nextIndex == 4){
-                $('.section').eq(index-1).addClass('leaved');
+                $('.section').eq(index - 1).addClass('leaved');
+            } else if (index == 3 && nextIndex == 4) {
+                $('.section').eq(index - 1).addClass('leaved');
             }
         },
         afterRender: function () {
             $('.more').on('click', function () {
                 $.fn.fullpage.moveSectionDown();
             });
+            $('.screen04.now .cart').on('transitionend', function () {
+                $('.screen04 .address').show().find('img:last').fadeIn(1000);
+                $('.screen04 .text').addClass('show');
+            })
         },
-        scrollingSpeed:1000
+        scrollingSpeed: 1000
     });
 });

@@ -1,64 +1,145 @@
- /*
+/*
 头部
 */
-.school-logo{
+.school-logo {
     max-width: 300px;
     width: auto;
     display: inline;
     line-height: 100px;
 }
-.avatar{
-    max-width: 100px;
-    max-height:100px;
+
+.avatar {
+    max-width: 130px;
+    max-height: 130px;
 }
-.head{
+
+.head {
     position: relative;
 }
-.head-school{
+
+.head-school {
     position: absolute;
     left: 0;
-    top:0;
+    top: 0;
+    animation: school 1s linear;
 }
-.head-avatar{
+
+@keyframes school {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.head-text {
+    animation: h1 1s linear;
+}
+
+@keyframes h1 {
+    from {
+        transform: scale(0.1, 0.1);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+.head-avatar {
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
+    animation: avatar 1s linear;
 }
-/* 
+
+@keyframes avatar {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/*
 媒体查询判断
 */
-@media (max-width: 970px){
-    .school-logo{
+@media (max-width: 970px) {
+    .school-logo {
         display: none;
     }
-    .head-text{
+
+    .head-text {
         text-align: left;
     }
 }
-@media (max-width: 475px){
-    .head-avatar{
+
+@media (max-width: 475px) {
+    .head-avatar {
         display: none;
     }
-    .head-text{
+
+    .head-text {
         text-align: center;
     }
 }
 
-.red{
-    border:1px solid red;
+.red {
+    border: 1px solid red;
 }
-p{
-    text-indent:2em;
+
+p {
+    text-indent: 2em;
 }
-body{
-    font-size: 12px;
+
+body {
+    font-size: 14px;
 }
-.time{
+
+.time {
     float: right;
 }
-@media (max-width: 480px){
-    .time{
+
+@media (max-width: 480px) {
+    .time {
         float: left;
         position: absolute;
     }
+}
+
+.personal-summary {
+    animation: h1 1s linear;
+}
+
+.work-experience {
+    animation: h1 1s linear;
+}
+
+.project-experience {
+    animation: h1 1s linear;
+}
+
+.study-experience {
+    animation: h1 1s linear;
+}
+
+.personal-project {
+    animation: h1 1s linear;
+}
+
+.educational-experience {
+    animation: h1 1s linear;
+}
+
+.professional-skill {
+    animation: h1 1s linear;
+}
+
+.other {
+    animation: h1 1s linear;
+}
+
+hr {
+    animation: h1 1s linear;
 }
