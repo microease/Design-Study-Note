@@ -266,15 +266,18 @@
     position: absolute;
     opacity: 0;
 }
-.screen04 .text.show img:first-child{
+
+.screen04 .text.show img:first-child {
     position: absolute;
     opacity: 0;
 }
-.screen04 .text.show img:last-child{
+
+.screen04 .text.show img:last-child {
     position: static;
     opacity: 1;
     transition: all 1s linear;
 }
+
 .screen04 .cart {
     text-align: center;
     margin-top: 60px;
@@ -317,4 +320,98 @@
 .screen04.now .cart {
     transition: all 5s;
     transform: translateX(1000px);
+}
+
+.screen05 {
+    background: url("../images/05-bg.png");
+}
+
+.screen05 .sofa {
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    transform: rotate(30deg);
+    opacity: 0;
+    /*transform: translateY(-100px) rotate(30deg);*/
+}
+
+.screen05 .card {
+    position: absolute;
+    left: 0;
+    top: 150px;
+}
+
+.screen05 .card .card {
+    position: relative;
+    z-index: 1;
+}
+
+.screen05 .card .order {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    transform: translateY(100px);
+}
+.screen05 .content{
+    height: 100%;
+}
+.screen05 .mouse {
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 400px;
+}
+
+.screen05 .mouse .m1,
+.screen05 .mouse .m2 {
+    position: absolute;
+    top: -350px;
+    right: 0;
+    overflow: hidden;
+}
+
+.screen05 .mouse .m2 {
+    opacity: 0;
+}
+
+.screen05 .mouse .hand {
+    position: absolute;
+    top: 330px;
+    right: 60px;
+    transform: translateY(500px);
+}
+
+.screen05.now .mouse .hand {
+    transition: all 1s linear;
+    transform: none;
+}
+
+.screen05.now .mouse .m2 {
+    transition: all 0.2s linear 1s;
+    opacity: 1;
+}
+
+.screen05.now .sofa {
+    animation: sofa05 2s linear 1.2s forwards;
+}
+
+@keyframes sofa05 {
+    from {
+        transform: translateY(-500px) rotate(30deg);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-100px) rotate(30deg);
+    }
+    100% {
+        transform: rotate(30deg);
+        opacity: 1;
+    }
+}
+
+.screen05.now .card .order {
+    transition: all 1s linear 2.2s;
+    transform: none;
 }
