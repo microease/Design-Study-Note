@@ -473,19 +473,27 @@
     left: 100px;
     z-index: 1002;
 }
-.screen06.box.show{
+
+.screen06.box.show {
     animation: box06 1s linear;
 }
+
 @keyframes box06 {
-    from{
+    from {
         transform: translateX(-500px);
     }
-    to{
+    to {
         transform: none;
     }
 }
-.screen06.car{
+
+.screen06.car {
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+.screen06.car img {
+    position: absolute;
+    opacity: 0;
 }
