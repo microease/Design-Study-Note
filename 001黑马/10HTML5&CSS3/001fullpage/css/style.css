@@ -352,9 +352,11 @@
     top: 50px;
     transform: translateY(100px);
 }
-.screen05 .content{
+
+.screen05 .content {
     height: 100%;
 }
+
 .screen05 .mouse {
     position: absolute;
     right: 0;
@@ -414,4 +416,59 @@
 .screen05.now .card .order {
     transition: all 1s linear 2.2s;
     transform: none;
+}
+
+.screen06 {
+    background: url("../images/06-bg.png") no-repeat -300px bottom;
+}
+
+.screen06.now {
+    transition: background 1s linear;
+    background: url("../images/06-bg.png") no-repeat -1000px bottom;
+}
+
+.screen06.cloud {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.screen06.cloud img:first-child {
+    animation: cloud06 40s linear infinite alternate;
+}
+
+.screen06.cloud img:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.screen06.cloud {
+
+}
+
+@keyframes cloud06 {
+    from {
+
+    }
+    to {
+        transform: translateX(1000px);
+    }
+}
+
+.screen06.text {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.screen06.text img:last-child {
+    position: absolute;
+    opacity: 0;
+}
+
+.screen06.box {
+    position: absolute;
+    top: 150px;
+    left: 100px;
 }
