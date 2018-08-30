@@ -430,7 +430,7 @@
 .screen06.cloud {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -50px;
 }
 
 .screen06.cloud img:first-child {
@@ -441,10 +441,7 @@
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.screen06.cloud {
-
+    animation: cloud06 20s linear infinite alternate;
 }
 
 @keyframes cloud06 {
@@ -475,25 +472,40 @@
 }
 
 .screen06.box.show {
-    animation: box06 1s linear;
+    animation: box06 2s linear forwards;
 }
 
 @keyframes box06 {
     from {
         transform: translateX(-500px);
     }
-    to {
+    50% {
         transform: none;
+    }
+    to {
+        transform: translateY(330px) scale(0.3);
     }
 }
 
 .screen06.car {
     position: absolute;
-    left: 0;
+    left: 100px;
     bottom: 0;
+    z-index: 1003;
 }
 
 .screen06.car img {
     position: absolute;
     opacity: 0;
+}
+
+.screen06.car .carImg {
+    opacity: 1;
+    position: relative;
+}
+
+.screen06 .person {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }

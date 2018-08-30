@@ -7,10 +7,16 @@ $(function () {
             $('.section').eq(index - 1).addClass('now');
         },
         onLeave: function (index, nextIndex, dirtction) {
+            var currentSection = $('.section').eq(index-1);
             if (index == 2 && nextIndex == 3) {
-                $('.section').eq(index - 1).addClass('leaved');
+                currentSection.addClass('leaved');
             } else if (index == 3 && nextIndex == 4) {
-                $('.section').eq(index - 1).addClass('leaved');
+                currentSection.addClass('leaved');
+            } else if (index == 5 && nextIndex == 6) {
+                /*当前是从第五页到第六页*/
+                /*currentSection.removeClass('now').addClass('leaved');*/
+                currentSection.addClass('leaved');
+                $('.screen06 .box').addClass('show');
             }
         },
         afterRender: function () {
