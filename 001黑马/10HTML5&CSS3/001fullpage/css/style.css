@@ -471,4 +471,21 @@
     position: absolute;
     top: 150px;
     left: 100px;
+    z-index: 1002;
+}
+.screen06.box.show{
+    animation: box06 1s linear;
+}
+@keyframes box06 {
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: none;
+    }
+}
+.screen06.car{
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
