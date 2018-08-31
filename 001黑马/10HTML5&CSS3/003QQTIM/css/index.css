@@ -1,0 +1,69 @@
+/*reset css*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Sans-Serif;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/*modle css*/
+.qq_nav {
+    height: 150px;
+    background: url("../images/nav_bg.png") repeat-x;
+
+}
+
+.qq_nav .wrapper {
+    width: 1080px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.qq_nav .wrapper .logo {
+    width: 100px;
+    height: 75px;
+    background: url("../images/banner-logo.png") no-repeat center;
+    float: left;
+}
+
+.qq_nav .wrapper .nav {
+    float: left;
+}
+.qq_nav .wrapper .nav li{
+    float: left;
+    font-size: 18px;
+    line-height: 75px;
+    margin-left: 20px;
+}
+.qq_banner {
+
+}
+
+.qq_sound {
+
+}
+
+.qq_file {
+
+}
+
+.qq_interest {
+
+}
+
+.qq_footer {
+
+}
