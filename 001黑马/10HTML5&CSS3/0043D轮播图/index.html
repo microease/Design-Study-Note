@@ -4,18 +4,53 @@
     <meta charset="UTF-8">
     <title>3D轮播图</title>
     <style>
-        *{
-            margin:0;
+        * {
+            margin: 0;
             padding: 0;
         }
-        .box{
+
+        .box {
             width: 560px;
             height: 300px;
             margin: 100px auto 0;
-            border:1px solid red;
+            border: 1px solid red;
+            position: relative;
         }
-        .box ul{
+
+        .box .imageBox {
+            width: 100%;
+            height: 100%;
             list-style: none;
+            overflow: hidden;
+        }
+        .box .imageBox li{
+            width: 100%;
+            height: 100%;
+        }
+        .pre {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            background-color: rgba(255, 255, 255, 0.3);
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            text-decoration: none;
+            color:#fff;
+        }
+
+        .next {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            background-color: rgba(255, 255, 255, 0.3);
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            text-decoration: none;
+            color:#fff;
         }
     </style>
 </head>
@@ -27,8 +62,8 @@
         <li><img src="images/3.jpg" alt=""></li>
         <li><img src="images/4.jpg" alt=""></li>
     </ul>
-    <a href="javascript:;">&lt;</a>
-    <a href="javascript:;">&gt;</a>
+    <a href="javascript:;" class="pre">&lt;</a>
+    <a href="javascript:;" class="next">&gt;</a>
 </div>
 <script src="jquery.min.js"></script>
 </body>
